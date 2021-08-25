@@ -8,4 +8,5 @@
   roles:
     - { role: user-configuration, tags: [user-configuration] }
     - { role: php, tags: [php] }
+    - { role: composer, tags: [composer] }
 

@@ -1,0 +1,33 @@
+---
+composer_path: /usr/local/bin/composer
+composer_keep_updated: false
+composer_version: ''
+composer_version_branch: '--2'
+
+# The directory where global packages will be installed.
+composer_home_path: '~/.config/composer'
+composer_home_owner: root
+composer_home_group: root
+
+# A list of packages to install globally. See commented examples below for
+# usage; the 'release' is optional, and defaults to '@stable'.
+composer_global_packages:
+  - { name: laravel/installer }
+  - { name: phpunit/phpunit }
+  - { name: phing/phing }
+  - { name: phpmd/phpmd }
+  - { name: squizlabs/php_codesniffer }
+  - { name: phpstan/phpstan }
+  - { name: psy/psysh }
+  - { name: laravel/envoy }
+  - { name: friendsofphp/php-cs-fixer }
+  - { name: cpriego/valet-linux }
+
+composer_add_to_path: true
+
+# Add a project vendor/bin directory to the PATH
+composer_add_project_to_path: false
+# composer_project_path: /path/to/project/vendor/bin
+
+# GitHub OAuth token (used to help overcome API rate limits).
+composer_github_oauth_token: ''
