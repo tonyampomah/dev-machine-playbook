@@ -1,0 +1,12 @@
+* kwame-dat/dev-machine-playbook
+Uses [[https://www.ansible.com/][Ansible]] to provision and setup my development machine from scratch so I
+don't have to do things manually.
+
+I personally enjoy working on a arch based Linux distribution. However from time
+to time I come across situation where I need to work on Ubuntu, MacOs or WSL.
+
+Hence I plan to support the following Operating Systems;
+- [ ] [[https://arcolinux.com/][ArcoLinux (Arch Linux)]]
+- [X] [[https://ubuntu.com/][Ubuntu (Debian)]]
+- [ ] [[https://www.apple.com/uk/macos/big-sur/][MacOs]]
+- [ ] [[https://docs.microsoft.com/en-us/windows/wsl/install-win10][Windows (WSL Ubuntu)]]
