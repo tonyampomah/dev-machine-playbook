@@ -9,4 +9,5 @@
     - { role: user-configuration, tags: [user-configuration] }
     - { role: php, tags: [php] }
     - { role: composer, tags: [composer] }
+    - { role: emacs, tags: [emacs, emacs-packages] }
 
