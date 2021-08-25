@@ -10,3 +10,11 @@ Hence I plan to support the following Operating Systems;
 - [X] [[https://ubuntu.com/][Ubuntu (Debian)]]
 - [ ] [[https://www.apple.com/uk/macos/big-sur/][MacOs]]
 - [ ] [[https://docs.microsoft.com/en-us/windows/wsl/install-win10][Windows (WSL Ubuntu)]]
+** Provisioning
+#+begin_src sh
+  make provision
+#+end_src
+
+** Development
+*** Prerequisite
+- vagrant
