@@ -20,8 +20,20 @@ window_manager_packages:
   - { name: xvkbd, state: present }
   - { name: xbindkeys, state: present }
   - { name: autorandr, state: present }
+  - { name: redshift, state: present }
 
 xmonad_packages:
   - { name: xmonad, state: present }
   - { name: libghc-xmonad-dev, state: present }
   - { name: libghc-xmonad-contrib-dev, state: present }
+
+wayland_window_manager_dependencies:
+  - { name: grim, state: present }
+  - { name: slurp, state: present }
+  - { name: brightnessctl, state: present }
+  - { name: wofi, state: present }
+  - { name: wl-clipboard, state: present }
+
+sway_packages:
+  - { name: sway, state: present }
+  - { name: waybar, state: present }

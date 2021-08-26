@@ -1,3 +1,4 @@
 ---
 window_manager_packages: []
 xmonad_packages: []
+wayland_window_manager_dependencies: []

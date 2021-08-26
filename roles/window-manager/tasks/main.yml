@@ -16,3 +16,16 @@
     name: "{{ item.name }}"
     state: "{{ item.state}}"
   with_items: "{{ window_manager_packages }}"
+
+
+- name: Install sway wayland window manager
+  package:
+    name: "{{ item.name }}"
+    state: "{{ item.state}}"
+  with_items: "{{ sway_packages }}"
+
+- name: Install wayland window manager dependencies
+  package:
+    name: "{{ item.name }}"
+    state: "{{ item.state}}"
+  with_items: "{{ wayland_window_manager_dependencies }}"
