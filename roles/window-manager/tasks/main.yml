@@ -1,0 +1,18 @@
+- name: Include distribution and version-specific vars.
+  include_vars: "{{ item }}"
+  with_first_found:
+    - files:
+        - "{{ ansible_distribution }}-{{ ansible_distribution_major_version }}.yml"
+      skip: true
+
+- name: Install xmonad and dependencies
+  package:
+    name: "{{ item.name }}"
+    state: "{{ item.state }}"
+  with_items: "{{ xmonad_packages }}"
+
+- name: Install window manager packages
+  package:
+    name: "{{ item.name }}"
+    state: "{{ item.state}}"
+  with_items: "{{ window_manager_packages }}"
