@@ -17,7 +17,6 @@
     state: "{{ item.state}}"
   with_items: "{{ window_manager_packages }}"
 
-
 - name: Install sway wayland window manager
   package:
     name: "{{ item.name }}"
