@@ -1,3 +1,4 @@
+---
 # Variable setup.
 - name: Include distribution and version-specific vars.
   include_vars: "{{ item }}"

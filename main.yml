@@ -6,9 +6,10 @@
     - config.yml
 
   roles:
-    - { role: user-configuration, tags: [user-configuration] }
-    - { role: php, tags: [php] }
-    - { role: composer, tags: [composer] }
-    - { role: emacs, tags: [emacs, emacs-packages] }
-    - { role: window-manager, tags: [window-manager] }
+    - {role: user-configuration, tags: [user-configuration]}
+    - {role: php, tags: [php]}
+    - {role: docker, tags: [docker]}
+    - {role: composer, tags: [composer]}
+    - {role: emacs, tags: [emacs, emacs-packages]}
+    - {role: window-manager, tags: [window-manager]}
 

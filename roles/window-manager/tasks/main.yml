@@ -1,3 +1,4 @@
+---
 - name: Include distribution and version-specific vars.
   include_vars: "{{ item }}"
   with_first_found:
