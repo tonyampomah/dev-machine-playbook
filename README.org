@@ -6,9 +6,9 @@ I personally enjoy working on a arch based Linux distribution. However from time
 to time I come across situation where I need to work on Ubuntu, MacOs or WSL.
 
 Hence I plan to support the following Operating Systems;
-- [ ] [[https://arcolinux.com/][ArcoLinux (Arch Linux)]]
-- [X] [[https://ubuntu.com/][Ubuntu (Debian)]]
+- [X] [[https://arcolinux.com/][ArcoLinux (Arch Linux)]]
 - [ ] [[https://www.apple.com/uk/macos/big-sur/][MacOs]]
+- [X] [[https://ubuntu.com/][Ubuntu (Debian)]]
 - [ ] [[https://docs.microsoft.com/en-us/windows/wsl/install-win10][Windows (WSL Ubuntu)]]
 ** Provisioning
 #+begin_src sh
