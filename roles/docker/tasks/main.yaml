@@ -1,0 +1,30 @@
+---
+- name: Install docker
+  package:
+    name: docker
+    state: present
+
+- name: Install docker-compose
+  package:
+    name: docker-compose
+    state: present
+
+- name: Install docker-compose
+  package:
+    name: docker-compose
+    state: present
+
+- name: Give user permission
+  command: usermod -aG docker "{{username}}"
+  become: yes
+  become_user: root
+
+- name: Start service docker
+  service:
+    name: docker
+    state: started
+
+- name: Enable service docker
+  service:
+    name: docker
+    enabled: yes
