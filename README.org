@@ -9,12 +9,22 @@ Hence I plan to support the following Operating Systems;
 - [X] [[https://arcolinux.com/][ArcoLinux (Arch Linux)]]
 - [ ] [[https://www.apple.com/uk/macos/big-sur/][MacOs]]
 - [X] [[https://ubuntu.com/][Ubuntu (Debian)]]
-- [ ] [[https://docs.microsoft.com/en-us/windows/wsl/install-win10][Windows (WSL Ubuntu)]]
+- [ ] [[https://docs.microsoft.com/en-us/windows/wsl/install-win10][Windows (WSL Ubuntu 20.04)]]
 ** Provisioning
-#+begin_src sh
-  make provision
+*** Arch
+#+begin_src bash
+  make provision-arch
 #+end_src
-
+*** Ubuntu
+#+begin_src bash
+  make provision-ubuntu
+#+end_src
+*** Window WSL2 Ubuntu
+#+begin_src bash
+  make provision-wsl-ubuntu
+#+end_src
+*** TODO MacOs
 ** Development
 *** Prerequisite
 - vagrant
+- virtualbox
