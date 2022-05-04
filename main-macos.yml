@@ -1,0 +1,12 @@
+---
+- hosts: all
+  connection: local
+  become: false
+  vars_files:
+    - config.yml
+
+  roles:
+    - {role: geerlingguy.homebrew, tags: [homebrew]}
+    - {role: user-configuration, tags: [user-configuration]}
+    - {role: emacs, tags: [emacs, emacs-packages]}
+

@@ -1,6 +1,9 @@
 provision-ubuntu: install-ansible
 	ansible-playbook main-ubuntu.yml -i inventory
 
+provision-macos:
+	ansible-playbook main-macos.yml -i inventory
+
 provision-wsl-ubuntu: install-ansible
 	ansible-playbook main-wsl-ubuntu.yml -i inventory
 

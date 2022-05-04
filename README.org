@@ -7,10 +7,35 @@ to time I come across situation where I need to work on Ubuntu, MacOs or WSL.
 
 Hence I plan to support the following Operating Systems;
 - [X] [[https://arcolinux.com/][ArcoLinux (Arch Linux)]]
-- [ ] [[https://www.apple.com/uk/macos/big-sur/][MacOs]]
+- [X] [[https://www.apple.com/uk/macos/big-sur/][MacOs]]
 - [X] [[https://ubuntu.com/][Ubuntu (Debian)]]
-- [ ] [[https://docs.microsoft.com/en-us/windows/wsl/install-win10][Windows (WSL Ubuntu 20.04)]]
+- [X] [[https://docs.microsoft.com/en-us/windows/wsl/install-win10][Windows (WSL Ubuntu 20.04)]]
 ** Provisioning
+*** MacOs
+- Ensure Apple's command line tools are installed (xcode-select --install to launch the installer)
+#+begin_src bash
+xcode-select --install
+#+end_src
+- Install [[https://docs.ansible.com/ansible/latest/installation_guide/index.html][Ansible]]
+  - Run the following command below to add Python 3 to your $PATH:
+    #+begin_src 
+  export PATH="$HOME/Library/Python/3.8/bin:/opt/homebrew/bin:$PATH"
+    #+end_src
+  - Upgrade Pip: =sudo pip3 install --upgrade pip=
+  - Install Ansible: =pip3 install ansible=
+- Clone or download this repository to your local drive.
+  #+begin_src bash
+    git clone https://github.com/kwame-dat/dev-machine-playbook.git
+  #+end_src
+- Run the command below inside cloned directory to install required Ansible roles
+  #+begin_src bash
+    ansible-galaxy install -r requirements.yml
+  #+end_src
+- Run command inside inside cloned directory to provision your mac
+  #+begin_src bash
+    make provision-macos
+  #+end_src
+
 *** Arch
 #+begin_src bash
   make provision-arch
@@ -23,7 +48,6 @@ Hence I plan to support the following Operating Systems;
 #+begin_src bash
   make provision-wsl-ubuntu
 #+end_src
-*** TODO MacOs
 ** Development
 *** Prerequisite
 - vagrant

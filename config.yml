@@ -2,3 +2,54 @@
 username: kwamedat
 composer_home_owner: kwamedat
 composer_home_group: kwamedat
+
+homebrew_installed_packages:
+  - ag
+  - aspell
+  - composer
+  - coreutils
+  - editorconfig
+  - fd
+  - git
+  - global
+  - glslang
+  - gnu-tar
+  - go
+  - httpie
+  - lastpass-cli
+  - ledger
+  - libvterm
+  - mactex
+  - markdown
+  - mu
+  - node
+  - nvm
+  - pandoc
+  - pass
+  - readline
+  - ripgrep
+  - sbcl
+  - shellcheck
+  - sqlite
+  - wget
+
+homebrew_taps:
+  - homebrew/core
+  - homebrew/cask
+
+homebrew_cask_appdir: /Applications
+
+homebrew_cask_apps:
+  - alfred
+  - appcleaner
+  - dbeaver-community
+  - docker
+  - emacs
+  - google-chrome
+  - hyper
+  - sequel-pro
+  - skype
+  - slack
+  - spectacle
+  - vagrant
+  - whatsapp
