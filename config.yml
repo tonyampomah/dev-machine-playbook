@@ -19,7 +19,6 @@ homebrew_installed_packages:
   - lastpass-cli
   - ledger
   - libvterm
-  - mactex
   - markdown
   - mu
   - node
@@ -47,6 +46,7 @@ homebrew_cask_apps:
   - emacs
   - google-chrome
   - hyper
+  - mactex
   - sequel-pro
   - skype
   - slack
