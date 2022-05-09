@@ -19,6 +19,7 @@ window_manager_packages:
   - {name: autorandr, state: present}
   - {name: redshift, state: present}
   - {name: polybar, state: present}
+  - {name: surfraw, state: present}
 
 xmonad_packages:
   - {name: xmonad, state: present}
