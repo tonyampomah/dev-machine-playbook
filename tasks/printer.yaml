@@ -1,0 +1,14 @@
+- name: Install cups for printing
+  package:
+    name: cups
+    state: present
+
+- name: Start service cups.service
+  service:
+    name: cups.service
+    state: started
+
+- name: Enable service cups.service
+  service:
+    name: cups.service
+    enabled: yes

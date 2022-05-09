@@ -15,4 +15,8 @@
     - {role: window-manager, tags: [window-manager]}
     - {role: web-browsers, tags: [web-browsers]}
     - {role: terminal, tags: [terminal]}
+    - {role: dev-tools, tags: [dev-tools]}
+  tasks:
+    - include: tasks/printer.yaml
+      tags: ['printer']
 
