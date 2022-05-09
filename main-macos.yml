@@ -6,6 +6,7 @@
     - config.yml
 
   roles:
+    - {role: geerlingguy.dotfiles, tags: [dotfiles]}
     - {role: geerlingguy.homebrew, tags: [homebrew]}
     - {role: user-configuration, tags: [user-configuration]}
     - {role: emacs, tags: [emacs, emacs-packages]}
