@@ -3,6 +3,35 @@ username: kwamedat
 composer_home_owner: kwamedat
 composer_home_group: kwamedat
 
+dotfiles_repo: "https://github.com/kwame-dat/dotfiles.git"
+dotfiles_repo_version: master
+dotfiles_repo_local_destination: "~/Repo/2Areas/dotfiles"
+
+dotfiles_files:
+  - .Xresources
+  - .Xresources-dpi
+  - .aliases
+  - .bashrc
+  - .ca-bundle.crt
+  - .functions
+  - .gitconfig
+  - .gitignore
+  - .gitignore_global
+  - .gtkrc-2.0
+  - .mbsyncrc
+  - .php-cs-fixer
+  - .tmux.conf
+  - .xbindkeysrc
+  - .xinitrc
+  - .xmobarrc
+  - .xmonad
+  - .xsession
+  - .zshrc
+  - .bin
+  - .config
+  - .local
+  - .mpd
+
 homebrew_installed_packages:
   - ag
   - aspell
@@ -52,4 +81,6 @@ homebrew_cask_apps:
   - slack
   - spectacle
   - vagrant
+  - virtualbox
   - whatsapp
+  - meld
