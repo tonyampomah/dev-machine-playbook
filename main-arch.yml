@@ -6,6 +6,7 @@
     - config.yml
 
   roles:
+    - {role: geerlingguy.dotfiles, tags: [dotfiles]}
     - {role: user-configuration, tags: [user-configuration]}
     - {role: php, tags: [php]}
     - {role: docker, tags: [docker]}
