@@ -1,0 +1,8 @@
+---
+terminal_packages:
+  - {name: zsh, state: present}
+  - {name: termite, state: present}
+
+terminal_aur_packages:
+  - {name: alacritty-ligatures-git, state: present}
+  - {name: oh-my-zsh-git, state: present}
