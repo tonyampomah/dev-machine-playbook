@@ -1,0 +1,5 @@
+---
+web_browsers_packages:
+  - {name: brave, state: present}
+  - {name: firefox, state: present}
+  - {name: qutebrowser, state: present}
