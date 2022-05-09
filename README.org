@@ -13,9 +13,9 @@ Hence I plan to support the following Operating Systems;
 ** Provisioning
 *** MacOs
 - Ensure Apple's command line tools are installed (xcode-select --install to launch the installer)
-#+begin_src bash
-xcode-select --install
-#+end_src
+    #+begin_src bash
+    xcode-select --install
+    #+end_src
 - Install [[https://docs.ansible.com/ansible/latest/installation_guide/index.html][Ansible]]
   - Run the following command below to add Python 3 to your $PATH:
     #+begin_src 
@@ -31,23 +31,20 @@ xcode-select --install
   #+begin_src bash
     ansible-galaxy install -r requirements.yml
   #+end_src
-- Run command inside inside cloned directory to provision your mac
-  #+begin_src bash
-    make provision-macos
-  #+end_src
+- Provision =ansible-playbook main-macos.yml -i inventory=
 
 *** Arch
-#+begin_src bash
-  make provision-arch
-#+end_src
+- Install ansible =sudo pacman -S ansible=
+- Install dependecies =ansible-galaxy install -r requirements.yml=
+- Provision =ansible-playbook main-arch.yml -i inventory=
 *** Ubuntu
-#+begin_src bash
-  make provision-ubuntu
-#+end_src
+- Install ansible =sudo apt install ansible -y=
+- Install dependecies =ansible-galaxy install -r requirements.yml=
+- Provision =ansible-playbook main-ubuntu.yml -i inventory=
 *** Window WSL2 Ubuntu
-#+begin_src bash
-  make provision-wsl-ubuntu
-#+end_src
+- Install ansible =sudo apt install ansible -y=
+- Install dependecies =ansible-galaxy install -r requirements.yml=
+- Provision =ansible-playbook main-wsl-ubuntu.yml -i inventory=
 ** Development
 *** Prerequisite
 - vagrant
