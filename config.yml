@@ -17,19 +17,15 @@ dotfiles_files:
   - .gitconfig
   - .gitignore
   - .gitignore_global
-  - .gtkrc-2.0
   - .mbsyncrc
   - .php-cs-fixer
   - .tmux.conf
   - .xbindkeysrc
-  - .xinitrc
   - .xmobarrc
   - .xmonad
-  - .xsession
   - .zshrc
   - .bin
   - .config
-  - .local
   - .mpd
 
 homebrew_installed_packages:
