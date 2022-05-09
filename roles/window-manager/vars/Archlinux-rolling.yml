@@ -1,0 +1,36 @@
+---
+window_manager_packages:
+  - {name: pavucontrol, state: present}
+  - {name: playerctl, state: present}
+  - {name: variety, state: present}
+  - {name: feh, state: present}
+  - {name: pulseaudio, state: present}
+  - {name: dunst, state: present}
+  - {name: rofi, state: present}
+  - {name: arandr, state: present}
+  - {name: sysstat, state: present}
+  - {name: xcape, state: present}
+  - {name: screenkey, state: present}
+  - {name: acpi, state: present}
+  - {name: compton, state: present}
+  - {name: xbindkeys, state: present}
+  - {name: autorandr, state: present}
+  - {name: redshift, state: present}
+  - {name: polybar, state: present}
+
+xmonad_packages:
+  - {name: xmonad, state: present}
+  - {name: xmonad-contrib, state: present}
+  - {name: xmonad-utils, state: present}
+  - {name: haskell-dbus, state: present}
+
+wayland_window_manager_dependencies:
+  - {name: grim, state: present}
+  - {name: slurp, state: present}
+  - {name: brightnessctl, state: present}
+  - {name: wofi, state: present}
+  - {name: wl-clipboard, state: present}
+
+sway_packages:
+  - {name: sway, state: present}
+  - {name: waybar, state: present}
