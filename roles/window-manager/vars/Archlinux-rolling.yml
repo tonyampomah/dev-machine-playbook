@@ -7,6 +7,8 @@ window_manager_packages:
   - {name: pulseaudio, state: present}
   - {name: dunst, state: present}
   - {name: rofi, state: present}
+  - {name: rofi-pass, state: present}
+  - {name: rofi-calc, state: present}
   - {name: arandr, state: present}
   - {name: sysstat, state: present}
   - {name: xcape, state: present}
