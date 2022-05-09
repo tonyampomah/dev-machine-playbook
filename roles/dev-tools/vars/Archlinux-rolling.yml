@@ -14,3 +14,5 @@ dev_tools_aur_packages:
   - {name: postman-bin, state: present}
   - {name: insomnia-bin, state: present}
   - {name: insomnia-designer-bin, state: present}
+  - {name: dbeaver, state: present}
+  - {name: tableplus, state: present}
