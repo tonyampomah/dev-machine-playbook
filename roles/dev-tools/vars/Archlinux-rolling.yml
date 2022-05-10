@@ -7,6 +7,9 @@ dev_tools_packages:
   - {name: virtualbox, state: present}
   - {name: dnsutils, state: present}
   - {name: python-pip, state: present}
+  - {name: cmatrix, state: present}
+  - {name: zsh, state: present}
+  - {name: termite, state: present}
 
 dev_tools_aur_packages:
   - {name: phpstorm, state: present}
@@ -16,3 +19,5 @@ dev_tools_aur_packages:
   - {name: insomnia-designer-bin, state: present}
   - {name: dbeaver, state: present}
   - {name: tableplus, state: present}
+  - {name: alacritty-ligatures-git, state: present}
+  - {name: oh-my-zsh-git, state: present}
