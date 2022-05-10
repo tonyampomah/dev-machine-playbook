@@ -24,8 +24,8 @@
     state: "{{ item.state}}"
   with_items: "{{ sway_packages }}"
 
-- name: Install wayland window manager dependencies
+- name: Install wayland packages
   package:
     name: "{{ item.name }}"
     state: "{{ item.state}}"
-  with_items: "{{ wayland_window_manager_dependencies }}"
+  with_items: "{{ wayland_packages }}"

@@ -27,12 +27,13 @@ xmonad_packages:
   - {name: xmonad-utils, state: present}
   - {name: haskell-dbus, state: present}
 
-wayland_window_manager_dependencies:
+wayland_packages:
   - {name: grim, state: present}
   - {name: slurp, state: present}
   - {name: brightnessctl, state: present}
   - {name: wofi, state: present}
   - {name: wl-clipboard, state: present}
+  - {name: waydroid, state: present}
 
 sway_packages:
   - {name: sway, state: present}
