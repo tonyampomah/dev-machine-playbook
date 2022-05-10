@@ -1,0 +1,21 @@
+---
+- name: Include distribution and version-specific vars.
+  include_vars: "{{ item }}"
+  with_first_found:
+    - files:
+        - "{{ ansible_distribution }}-{{ ansible_distribution_major_version }}.yml"
+      skip: true
+
+- name: Install General Apps
+  package:
+    name: "{{ item.name }}"
+    state: "{{ item.state}}"
+  with_items: "{{ general_packages }}"
+
+- name: Install General Aur Packages
+  kewlfft.aur.aur:
+    use: yay
+    name: "{{ item.name }}"
+    state: "{{ item.state}}"
+  with_items: "{{ general_aur_packages }}"
+  become_user: "{{username}}"

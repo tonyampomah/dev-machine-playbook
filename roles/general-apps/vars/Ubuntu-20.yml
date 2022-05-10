@@ -1,0 +1,4 @@
+---
+terminal_packages:
+  - {name: zsh, state: present}
+  - {name: termite, state: present}
