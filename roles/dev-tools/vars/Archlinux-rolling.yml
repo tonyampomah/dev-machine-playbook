@@ -21,3 +21,4 @@ dev_tools_aur_packages:
   - {name: tableplus, state: present}
   - {name: alacritty-ligatures-git, state: present}
   - {name: oh-my-zsh-git, state: present}
+  - {name: trellis-cli, state: present}
