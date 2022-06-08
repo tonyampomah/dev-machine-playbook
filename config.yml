@@ -56,6 +56,7 @@ homebrew_installed_packages:
   - shellcheck
   - sqlite
   - wget
+  - fzf
 
 homebrew_taps:
   - homebrew/core
