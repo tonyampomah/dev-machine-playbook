@@ -1,7 +1,9 @@
 ---
 collections:
   - name: kewlfft.aur
+  - name: geerlingguy.mac
 
 roles:
-- name: geerlingguy.homebrew
-- name: geerlingguy.dotfiles
+  - name: geerlingguy.homebrew
+  - name: geerlingguy.dotfiles
+  - name: elliotweiser.osx-command-line-tools
