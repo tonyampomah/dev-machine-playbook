@@ -92,7 +92,7 @@ homebrew_cask_apps:
   - sublime-text
   - teamviewer
   - tidal
-  - vagrant
+  # - vagrant
   - visual-studio-code
   - vlc
   - whatsapp
