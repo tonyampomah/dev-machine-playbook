@@ -5,6 +5,7 @@
     - config.yml
 
   roles:
-    - role: elliotweiser.osx-command-line-tools
+    - {role: elliotweiser.osx-command-line-tools, tags: [command-line-tools]}
     - {role: geerlingguy.mac.homebrew, tags: [homebrew]}
+    - {role: geerlingguy.dotfiles, tags: [dotfiles]}
     - {role: user-configuration, tags: [user-configuration]}
