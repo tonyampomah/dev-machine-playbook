@@ -29,50 +29,72 @@ dotfiles_files:
   - .mpd
 
 homebrew_installed_packages:
-  - aspell
   # - composer
-  - coreutils
-  - editorconfig
   # - fd
-  - git
   # - global
   # - glslang
-  - gnu-tar
-  - go
   # - ledger
-  - libvterm
-  - markdown
   # - mu
   # - node
-  - nvm
   # - pandoc
   # - pass
-  - readline
   # - ripgrep
   # - sbcl
-  - sqlite
   # - wget
+  - aspell
+  - coreutils
+  - editorconfig
   - fzf
-  - node@16
+  - git
+  - gnu-tar
+  - go
+  - libvterm
+  - markdown
+  - nvm
+  - readline
+  - sqlite
 
 homebrew_taps:
   - homebrew/core
   - homebrew/cask
+  - homebrew/cask-drivers
 
 homebrew_cask_appdir: /Applications
 
 homebrew_cask_apps:
   - alfred
   - appcleaner
+  - audacity
+  - balenaetcher
+  - calibre
   - dbeaver-community
+  - discord
+  - diskmaker-x
   - docker
+  - dropbox
   - emacs
+  - gimp
   - google-chrome
+  - lastpass
+  - logitech-options
   - mactex
+  - meld
+  - microsoft-remote-desktop
+  - mixxx
+  - nextcloud
+  - obs
+  - querious
+  - qutebrowser
   - sequel-pro
   - skype
   - slack
   - spectacle
+  - sublime-text
+  - teamviewer
+  - tidal
   - vagrant
+  - visual-studio-code
+  - vlc
   - whatsapp
-  - meld
+  - xbox360-controller-driver-unofficial
+  - zoom
