@@ -29,34 +29,31 @@ dotfiles_files:
   - .mpd
 
 homebrew_installed_packages:
-  - ag
   - aspell
-  - composer
+  # - composer
   - coreutils
   - editorconfig
-  - fd
+  # - fd
   - git
-  - global
-  - glslang
+  # - global
+  # - glslang
   - gnu-tar
   - go
-  - httpie
-  - lastpass-cli
-  - ledger
+  # - ledger
   - libvterm
   - markdown
-  - mu
-  - node
+  # - mu
+  # - node
   - nvm
-  - pandoc
-  - pass
+  # - pandoc
+  # - pass
   - readline
-  - ripgrep
-  - sbcl
-  - shellcheck
+  # - ripgrep
+  # - sbcl
   - sqlite
-  - wget
+  # - wget
   - fzf
+  - node@16
 
 homebrew_taps:
   - homebrew/core
@@ -71,13 +68,11 @@ homebrew_cask_apps:
   - docker
   - emacs
   - google-chrome
-  - hyper
   - mactex
   - sequel-pro
   - skype
   - slack
   - spectacle
   - vagrant
-  - virtualbox
   - whatsapp
   - meld
