@@ -4,7 +4,7 @@ composer_home_owner: kwamedat
 composer_home_group: kwamedat
 
 dotfiles_repo: "https://github.com/kwame-dat/dotfiles.git"
-dotfiles_repo_version: master
+dotfiles_repo_version: main
 dotfiles_repo_local_destination: "~/Repo/2Areas/dotfiles"
 
 dotfiles_files:
