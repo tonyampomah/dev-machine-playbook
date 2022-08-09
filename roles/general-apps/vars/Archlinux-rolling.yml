@@ -1,6 +1,7 @@
 ---
 general_packages:
   - {name: nextcloud-client, state: present}
+  - {name: dropbox, state: present}
   - {name: calibre, state: present}
   - {name: android-file-transfer, state: present}
   - {name: kdeconnect, state: present}
