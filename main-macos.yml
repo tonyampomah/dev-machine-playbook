@@ -9,3 +9,4 @@
     - {role: geerlingguy.mac.homebrew, tags: [homebrew]}
     - {role: user-configuration, tags: [user-configuration]}
     - {role: geerlingguy.dotfiles, tags: [dotfiles]}
+    - {role: composer, tags: [composer]}
