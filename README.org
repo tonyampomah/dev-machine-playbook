@@ -13,16 +13,22 @@ Hence I plan to support the following Operating Systems;
 ** Provisioning
 *** MacOs
 - Ensure Apple's command line tools are installed (xcode-select --install to launch the installer)
-    #+begin_src bash
+  #+begin_src bash
     xcode-select --install
-    #+end_src
+  #+end_src
 - Install [[https://docs.ansible.com/ansible/latest/installation_guide/index.html][Ansible]]
   - Run the following command below to add Python 3 to your $PATH:
-    #+begin_src 
-  export PATH="$HOME/Library/Python/3.8/bin:/opt/homebrew/bin:$PATH"
+    #+begin_src conf
+      export PATH="$HOME/Library/Python/3.8/bin:/opt/homebrew/bin:$PATH"
     #+end_src
-  - Upgrade Pip: =sudo pip3 install --upgrade pip=
-  - Install Ansible: =pip3 install ansible=
+  - Upgrade Pip:
+    #+begin_src bash
+      sudo pip3 install --upgrade pip
+    #+end_src
+  - Install Ansible:
+    #+begin_src bash
+      pip3 install ansible
+    #+end_src
 - Clone or download this repository to your local drive.
   #+begin_src bash
     git clone https://github.com/kwame-dat/dev-machine-playbook.git
@@ -31,20 +37,50 @@ Hence I plan to support the following Operating Systems;
   #+begin_src bash
     ansible-galaxy install -r requirements.yml
   #+end_src
-- Provision =ansible-playbook main-macos.yml -i inventory=
+- Provision
+  #+begin_src bash
+    ansible-playbook main-macos.yml -i inventory
+  #+end_src
 
 *** Arch
-- Install ansible =sudo pacman -S ansible=
-- Install dependecies =ansible-galaxy install -r requirements.yml=
-- Provision =ansible-playbook main-arch.yml -i inventory=
+- Install ansible 
+  #+begin_src bash
+    sudo pacman -S ansible
+  #+end_src
+- Install dependecies
+  #+begin_src bash
+    ansible-galaxy install -r requirements.yml
+  #+end_src
+- Provision
+  #+begin_src bash
+    ansible-playbook main-arch.yml -i inventory
+  #+end_src
 *** Ubuntu
-- Install ansible =sudo apt install ansible -y=
-- Install dependecies =ansible-galaxy install -r requirements.yml=
-- Provision =ansible-playbook main-ubuntu.yml -i inventory=
+- Install ansible
+  #+begin_src bash
+    sudo apt install ansible -y
+  #+end_src
+- Install dependecies
+  #+begin_src bash
+    ansible-galaxy install -r requirements.yml
+  #+end_src
+- Provision
+  #+begin_src bash
+    ansible-playbook main-ubuntu.yml -i inventory
+  #+end_src
 *** Window WSL2 Ubuntu
-- Install ansible =sudo apt install ansible -y=
-- Install dependecies =ansible-galaxy install -r requirements.yml=
-- Provision =ansible-playbook main-wsl-ubuntu.yml -i inventory=
+- Install ansible
+  #+begin_src bash
+    sudo apt install ansible -y
+  #+end_src
+- Install dependecies
+  #+begin_src bash
+    ansible-galaxy install -r requirements.yml
+  #+end_src
+- Provision
+  #+begin_src bash
+    ansible-playbook main-wsl-ubuntu.yml -i inventory
+  #+end_src
 ** Development
 *** Prerequisite
 - vagrant
