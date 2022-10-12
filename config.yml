@@ -60,6 +60,8 @@ homebrew_installed_packages:
   - nvm
   - readline
   - sqlite
+  - awscli
+  - isync
 
 homebrew_taps:
   - homebrew/core
