@@ -1,0 +1,15 @@
+---
+- name: Ensure emacs.d repository is cloned locally.
+  git:
+    repo: "{{ emacs_dotfile_repo }}"
+    dest: "{{ emacs_dotfile_repo_local_destination }}"
+    version: "{{ emacs_dotfile_repo_version }}"
+    accept_hostkey: "{{ emacs_dotfile_repo_accept_hostkey }}"
+  become: false
+
+- name: Link Emacs dotfile into home folder.
+  file:
+    src: "{{ emacs_dotfile_repo_local_destination }}"
+    dest: "{{ emacs_dotfile_home }}/.emacs.d"
+    state: link
+  become: false

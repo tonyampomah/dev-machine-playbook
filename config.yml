@@ -14,14 +14,6 @@ dotfiles_files:
   - .bashrc
   - .bin
   - .ca-bundle.crt
-  - .config/alacritty
-  - .config/polybar
-  - .config/qutebrowser
-  - .config/rofi
-  - .config/surfraw
-  - .config/sway
-  - .config/systemd
-  - .config/waybar
   - .functions
   - .gitconfig
   - .gitignore
@@ -34,20 +26,29 @@ dotfiles_files:
   - .xmobarrc
   - .xmonad
   - .zshrc
+  - .config/alacritty
+  - .config/polybar
+  - .config/qutebrowser
+  - .config/rofi
+  - .config/surfraw
+  - .config/sway
+  - .config/systemd
+  - .config/waybar
 
 homebrew_installed_packages:
-  # - composer
-  # - fd
-  # - global
-  # - glslang
-  # - ledger
-  # - mu
-  # - node
-  # - pandoc
-  # - pass
-  # - ripgrep
-  # - sbcl
-  # - wget
+  - composer
+  - fd
+  - cmake
+  - global
+  - glslang
+  - sbcl
+  - node
+  - ledger
+  - mu
+  - pandoc
+  - pass
+  - ripgrep
+  - wget
   - aspell
   - coreutils
   - editorconfig
@@ -67,6 +68,7 @@ homebrew_taps:
   - homebrew/core
   - homebrew/cask
   - homebrew/cask-drivers
+  - homebrew/cask-fonts
 
 homebrew_cask_appdir: /Applications
 
@@ -74,19 +76,17 @@ homebrew_cask_apps:
   - alfred
   - appcleaner
   - audacity
+  - alacritty
   - balenaetcher
   - calibre
-  - dbeaver-community
   - discord
   - diskmaker-x
   - docker
-  - dropbox
   - emacs
   - gimp
   - google-chrome
   - lastpass
   - logitech-options
-  - mactex
   - meld
   - microsoft-remote-desktop
   - mixxx
@@ -94,16 +94,17 @@ homebrew_cask_apps:
   - obs
   - querious
   - qutebrowser
-  - sequel-pro
   - skype
   - slack
   - spectacle
-  - sublime-text
-  - teamviewer
+  - tableplus
   - tidal
-  # - vagrant
   - visual-studio-code
   - vlc
   - whatsapp
-  - xbox360-controller-driver-unofficial
   - zoom
+  - font-inconsolata
+  - font-cantarell
+  - mactex
+  - vagrant
+  # - teamviewer
