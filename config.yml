@@ -26,14 +26,7 @@ dotfiles_files:
   - .xmobarrc
   - .xmonad
   - .zshrc
-  - .config/alacritty
-  - .config/polybar
-  - .config/qutebrowser
-  - .config/rofi
-  - .config/surfraw
-  - .config/sway
-  - .config/systemd
-  - .config/waybar
+  - .config
 
 homebrew_installed_packages:
   - composer
