@@ -63,12 +63,15 @@ homebrew_installed_packages:
   - sqlite
   - awscli
   - isync
+  - browserpass
+  - roots/tap/trellis-cli
 
 homebrew_taps:
   - homebrew/core
   - homebrew/cask
   - homebrew/cask-drivers
   - homebrew/cask-fonts
+  - amar1729/formulae
 
 homebrew_cask_appdir: /Applications
 
