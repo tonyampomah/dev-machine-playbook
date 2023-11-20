@@ -29,6 +29,7 @@ dotfiles_files:
   - .config
 
 homebrew_installed_packages:
+  - emacs-plus
   - composer
   - fd
   - cmake
@@ -62,9 +63,9 @@ homebrew_installed_packages:
 homebrew_taps:
   - homebrew/core
   - homebrew/cask
-  - homebrew/cask-drivers
   - homebrew/cask-fonts
   - amar1729/formulae
+  - d12frosted/emacs-plus
 
 homebrew_cask_appdir: /Applications
 
