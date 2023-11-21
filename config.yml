@@ -59,6 +59,10 @@ homebrew_installed_packages:
   - isync
   - browserpass
   - roots/tap/trellis-cli
+  - pkg-config
+  - poppler
+  - autoconf
+  - automake
 
 homebrew_taps:
   - homebrew/core
