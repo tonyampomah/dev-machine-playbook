@@ -70,6 +70,7 @@ homebrew_taps:
 homebrew_cask_appdir: /Applications
 
 homebrew_cask_apps:
+  - responsively
   - alfred
   - appcleaner
   - audacity
@@ -91,7 +92,6 @@ homebrew_cask_apps:
   - obs
   - querious
   - qutebrowser
-  - skype
   - slack
   - spectacle
   - tableplus
