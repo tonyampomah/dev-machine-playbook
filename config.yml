@@ -63,6 +63,8 @@ homebrew_installed_packages:
   - poppler
   - autoconf
   - automake
+  - neofetch
+  - jq
 
 homebrew_taps:
   - homebrew/core
@@ -74,42 +76,38 @@ homebrew_taps:
 homebrew_cask_appdir: /Applications
 
 homebrew_cask_apps:
-  - responsively
+  - alacritty
   - alfred
   - appcleaner
   - audacity
-  - alacritty
   - balenaetcher
   - calibre
   - discord
   - diskmaker-x
   - docker
-  - emacs
+  - font-cantarell
+  - font-inconsolata
   - gimp
   - google-chrome
+  - insomnia
   - lastpass
   - logitech-options
+  - mactex
   - meld
   - microsoft-remote-desktop
   - mixxx
   - nextcloud
   - obs
-  - querious
-  - qutebrowser
+  # - parallels
+  - responsively
+  - screaming-frog-seo-spider
   - slack
   - spectacle
+  - stoplight-studio
   - tableplus
   - tidal
+  - vagrant
   - visual-studio-code
   - vlc
   - whatsapp
   - zoom
-  - font-inconsolata
-  - font-cantarell
-  - mactex
-  - vagrant
-  - parallels
-  - stoplight-studio
-  - insomnia
-  - screaming-frog-seo-spider
-  # - teamviewer
