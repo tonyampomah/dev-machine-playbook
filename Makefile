@@ -1,14 +1,14 @@
 install:
 	ansible-galaxy install -r requirements.yml
 
-ubuntu:
+provision-ubuntu:
 	ansible-playbook main-ubuntu.yml -i inventory
 
-arch:
+provision-arch:
 	ansible-playbook main-arch.yml -i inventory
 
-macos:
+provision-macos:
 	ansible-playbook main-macos.yml -i inventory
 
-wsl:
+provision-wsl:
 	ansible-playbook main-wsl-ubuntu.yml -i inventory
