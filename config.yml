@@ -1,9 +1,9 @@
 ---
-username: kwamedat
-composer_home_owner: kwamedat
-composer_home_group: kwamedat
+username: tonyampomah
+composer_home_owner: tonyampomah
+composer_home_group: tonyampomah
 
-dotfiles_repo: "https://github.com/kwame-dat/dotfiles.git"
+dotfiles_repo: "git@github.com:kwame-dat/dotfiles.git"
 dotfiles_repo_version: main
 dotfiles_repo_local_destination: "~/Repo/2Areas/dotfiles"
 
@@ -11,22 +11,17 @@ dotfiles_files:
   - .Xresources
   - .Xresources-dpi
   - .aliases
-  - .bashrc
   - .bin
+  - .ca-bundle.crt
   - .ca-bundle.crt
   - .functions
   - .gitconfig
-  - .gitignore
   - .gitignore_global
   - .mbsyncrc
   - .mpd
   - .php-cs-fixer
   - .tmux.conf
-  - .xbindkeysrc
-  - .xmobarrc
-  - .xmonad
   - .zshrc
-  - .config
 
 homebrew_installed_packages:
   - emacs-plus

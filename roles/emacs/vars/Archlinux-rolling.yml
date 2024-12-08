@@ -10,6 +10,4 @@ emacs_packages:
   - {name: isync, state: present}
   - {name: mu, state: present}
   - {name: editorconfig-core-c, state: present}
-  - {name: texlive-most, state: present}
   - {name: languagetool, state: present}
-  - {name: notmuch, state: present}
