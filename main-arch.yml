@@ -13,8 +13,8 @@
     - {role: window-manager, tags: [window-manager]}
     - {role: web-browsers, tags: [web-browsers]}
     - {role: dev-tools, tags: [dev-tools]}
-    # - {role: php, tags: [php]}
     - {role: docker, tags: [docker]}
+    - {role: php, tags: [php]}
     - {role: composer, tags: [composer]}
   tasks:
     - include_tasks: tasks/printer.yaml

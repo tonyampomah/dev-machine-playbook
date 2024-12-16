@@ -1,6 +1,10 @@
 ---
 # Extra packages to install (in addition to distro-specific default lists).
 php_packages_extra: []
+__php_packages: []
+__php_webserver_daemon: []
+__php_conf_paths: []
+__php_extension_conf_paths: []
 
 # Default PHP version to install on Debian-based OSes (OS-specific).
 # php_default_version_debian: ""

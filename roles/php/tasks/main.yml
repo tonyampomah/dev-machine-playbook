@@ -1,5 +1,4 @@
 ---
-# Variable setup.
 - name: Include distribution and version-specific vars.
   include_vars: "{{ item }}"
   with_first_found:
@@ -7,36 +6,11 @@
         - "{{ ansible_distribution }}-{{ ansible_distribution_major_version }}.yml"
       skip: true
 
-- name: Set the default PHP version for Debian-based OSes.
-  set_fact:
-    php_default_version_debian: "{{ __php_default_version_debian }}"
-  when: php_default_version_debian is not defined and ansible_os_family == 'Debian'
-
-- name: Define php_packages.
-  set_fact:
-    php_packages: "{{ __php_packages | list }}"
-  when: php_packages is not defined
-
-- name: Define php_webserver_daemon.
-  set_fact:
-    php_webserver_daemon: "{{ __php_webserver_daemon }}"
-  when: php_webserver_daemon is not defined
-
-- name: Define php_conf_paths.
-  set_fact:
-    php_conf_paths: "{{ __php_conf_paths }}"
-  when: php_conf_paths is not defined
-
-- name: Define php_extension_conf_paths.
-  set_fact:
-    php_extension_conf_paths: "{{ __php_extension_conf_paths }}"
-  when: php_extension_conf_paths is not defined
-
-# Setup/Install tasks.
-- include_tasks: setup-Debian.yml
-  when:
-    - not php_install_from_source
-    - ansible_os_family == 'Debian'
+- name: Install php packages
+  package:
+    name: "{{ item.name }}"
+    state: "{{ item.state}}"
+  with_items: "{{ php_packages }}"
 
 # Configure PHP.
-- include_tasks: configure.yml
+# - include_tasks: configure.yml

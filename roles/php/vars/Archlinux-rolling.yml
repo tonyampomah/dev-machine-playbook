@@ -1,0 +1,3 @@
+---
+php_packages:
+  - {name: php, state: present}

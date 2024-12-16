@@ -9,11 +9,6 @@
     name: docker-compose
     state: present
 
-- name: Install docker-compose
-  package:
-    name: docker-compose
-    state: present
-
 - name: Give user permission
   command: usermod -aG docker "{{username}}"
   become: yes

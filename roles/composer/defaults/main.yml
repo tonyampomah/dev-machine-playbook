@@ -21,7 +21,6 @@ composer_global_packages:
   - {name: psy/psysh}
   - {name: laravel/envoy}
   - {name: friendsofphp/php-cs-fixer}
-  - {name: cpriego/valet-linux}
 
 composer_add_to_path: true
 
