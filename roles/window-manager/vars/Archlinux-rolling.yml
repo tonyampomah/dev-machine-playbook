@@ -1,6 +1,7 @@
 ---
 window_manager_packages:
   - {name: sway, state: present}
+  - {name: hyprland, state: present}
   - {name: waybar, state: present}
   - {name: acpi, state: present}
   - {name: arandr, state: present}
@@ -26,3 +27,4 @@ window_manager_packages:
   - {name: wofi, state: present}
   - {name: xbindkeys, state: present}
   - {name: xcape, state: present}
+  - {name: dolphin, state: present}
