@@ -19,6 +19,7 @@ general_packages:
   - {name: blender, state: present}
   - {name: kdenlive, state: present}
   - {name: libreoffice-fresh, state: present}
+  - {name: slack-desktop, state: present}
 
 general_aur_packages:
   - {name: image_optim, state: present}
