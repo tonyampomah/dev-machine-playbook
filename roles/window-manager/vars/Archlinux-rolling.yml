@@ -2,6 +2,9 @@
 window_manager_packages:
   - {name: sway, state: present}
   - {name: hyprland, state: present}
+  - {name: hyprlock, state: present}
+  - {name: hyprpaper, state: present}
+  - {name: wlogout, state: present}
   - {name: waybar, state: present}
   - {name: acpi, state: present}
   - {name: arandr, state: present}

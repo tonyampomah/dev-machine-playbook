@@ -20,8 +20,10 @@ general_packages:
   - {name: kdenlive, state: present}
   - {name: libreoffice-fresh, state: present}
   - {name: slack-desktop, state: present}
+  - {name: teams, state: present}
 
 general_aur_packages:
+  - {name: whatsdesk-bin, state: present}
   - {name: image_optim, state: present}
   - {name: balena-etcher, state: present}
   - {name: remmina-plugin-rdesktop, state: present}
