@@ -1,0 +1,13 @@
+---
+emacs_packages:
+  - {name: cmake, state: present}
+  - {name: aspell, state: present}
+  - {name: aspell-en, state: present}
+  - {name: ledger, state: present}
+  - {name: pandoc, state: present}
+  - {name: ripgrep, state: present}
+  - {name: xmlstarlet, state: present}
+  - {name: isync, state: present}
+  - {name: mu, state: present}
+  # - {name: editorconfig-core-c, state: present}
+  # - {name: languagetool, state: present}

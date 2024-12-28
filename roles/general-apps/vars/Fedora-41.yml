@@ -1,0 +1,28 @@
+---
+general_packages:
+  - {name: nextcloud-client, state: present}
+  - {name: calibre, state: present}
+  - {name: android-file-transfer, state: present}
+  - {name: remmina, state: present}
+  - {name: freerdp, state: present}
+  - {name: mpv, state: present}
+  # - {name: zoom, state: present}
+  # - {name: mpd, state: present}
+  - {name: mpc, state: present}
+  - {name: guvcview, state: present}
+  - {name: audacity, state: present}
+  - {name: youtube-dl, state: present}
+  - {name: lmms, state: present}
+  - {name: gimp, state: present}
+  - {name: blender, state: present}
+  - {name: kdenlive, state: present}
+  # - {name: libreoffice-fresh, state: present}
+  # - {name: slack-desktop, state: present}
+  # - {name: teams, state: present}
+
+general_aur_packages: []
+  # - {name: whatsdesk-bin, state: present}
+  # - {name: image_optim, state: present}
+  # - {name: balena-etcher, state: present}
+  # - {name: remmina-plugin-rdesktop, state: present}
+  # - {name: wordnet-cli, state: present}

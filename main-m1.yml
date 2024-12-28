@@ -1,0 +1,21 @@
+---
+- hosts: all
+  connection: local
+  become: true
+  vars_files:
+    - config.yml
+
+  roles:
+    - {role: user-configuration, tags: [user-configuration]}
+    # - {role: geerlingguy.dotfiles, tags: [dotfiles]}
+    - {role: general-apps, tags: [general-apps]}
+    - {role: emacs, tags: [emacs, emacs-packages]}
+    - {role: window-manager, tags: [window-manager]}
+    - {role: web-browsers, tags: [web-browsers]}
+    - {role: dev-tools, tags: [dev-tools]}
+    - {role: docker, tags: [docker]}
+    # - {role: php, tags: [php]}
+    # - {role: composer, tags: [composer]}
+  tasks:
+    - include_tasks: tasks/printer.yaml
+      tags: ['printer']
