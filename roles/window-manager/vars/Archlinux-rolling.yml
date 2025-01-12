@@ -30,4 +30,10 @@ window_manager_packages:
   - {name: wofi, state: present}
   - {name: xbindkeys, state: present}
   - {name: xcape, state: present}
-  - {name: dolphin, state: present}
+  - {name: lxappearance, state: present}
+  - {name: qt5ct, state: present}
+
+window_manager_aur_packages:
+  - {name: whitesur-gtk-theme, state: present}
+  - {name: whitesur-icon-theme, state: present}
+  - {name: whitesur-cursor-theme-git, state: present}
