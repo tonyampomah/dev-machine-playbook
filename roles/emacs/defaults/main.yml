@@ -1,5 +1,6 @@
 ---
 emacs_packages: []
+emacs_aur_packages: []
 emacs_dotfile_repo: "https://github.com/kwame-dat/emacs.d.git"
 emacs_dotfile_repo_version: main
 emacs_dotfile_repo_accept_hostkey: false

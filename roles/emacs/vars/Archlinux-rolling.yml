@@ -11,3 +11,6 @@ emacs_packages:
   - {name: mu, state: present}
   - {name: editorconfig-core-c, state: present}
   - {name: languagetool, state: present}
+
+emacs_aur_packages:
+  - {name: mu, state: present}
