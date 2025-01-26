@@ -1,5 +1,8 @@
 ---
 window_manager_packages:
+  - {name: xmonad, state: present}
+  - {name: xmonad-contrib, state: present}
+  - {name: polybar, state: present}
   - {name: sway, state: present}
   - {name: hyprland, state: present}
   - {name: hyprlock, state: present}
@@ -34,6 +37,7 @@ window_manager_packages:
   - {name: qt5ct, state: present}
 
 window_manager_aur_packages:
+  - {name: picom-jonaburg-git, state: present}
   - {name: whitesur-gtk-theme, state: present}
   - {name: whitesur-icon-theme, state: present}
   - {name: whitesur-cursor-theme-git, state: present}
