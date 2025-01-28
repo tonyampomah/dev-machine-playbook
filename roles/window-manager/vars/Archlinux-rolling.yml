@@ -20,7 +20,7 @@ window_manager_packages:
   - {name: pavucontrol, state: present}
   - {name: playerctl, state: present}
   - {name: pulseaudio, state: present}
-  - {name: rofi, state: present}
+  # - {name: rofi, state: present}
   - {name: rofi-calc, state: present}
   - {name: rofi-pass, state: present}
   - {name: slurp, state: present}
@@ -42,3 +42,4 @@ window_manager_aur_packages:
   - {name: whitesur-cursor-theme-git, state: present}
   - {name: waypaper, state: present}
   - {name: swww, state: present}
+  - {name: rofi-wayland, state: present}
