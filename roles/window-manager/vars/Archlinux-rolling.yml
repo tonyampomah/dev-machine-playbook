@@ -6,7 +6,6 @@ window_manager_packages:
   - {name: sway, state: present}
   - {name: hyprland, state: present}
   - {name: hyprlock, state: present}
-  - {name: hyprpaper, state: present}
   - {name: wlogout, state: present}
   - {name: waybar, state: present}
   - {name: acpi, state: present}
@@ -41,3 +40,5 @@ window_manager_aur_packages:
   - {name: whitesur-gtk-theme, state: present}
   - {name: whitesur-icon-theme, state: present}
   - {name: whitesur-cursor-theme-git, state: present}
+  - {name: waypaper, state: present}
+  - {name: swww, state: present}
