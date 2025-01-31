@@ -9,9 +9,9 @@ dotfiles_repo_local_destination: "~/Repo/2Areas/dotfiles"
 
 dotfiles_files:
   - .Xresources
-  - .Xresources-dpi
   - .aliases
   - .bin
+  - .config
   - .ca-bundle.crt
   - .ca-bundle.crt
   - .functions

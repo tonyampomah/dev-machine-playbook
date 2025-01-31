@@ -1,0 +1,26 @@
+---
+window_manager_packages:
+  - {name: sway, state: present}
+  - {name: hyprland, state: present}
+  - {name: hyprlock, state: present}
+  - {name: hyprpaper, state: present}
+  - {name: wlogout, state: present}
+  - {name: waybar, state: present}
+  - {name: acpi, state: present}
+  - {name: brightnessctl, state: present}
+  - {name: compton, state: present}
+  - {name: dunst, state: present}
+  - {name: feh, state: present}
+  - {name: gammastep, state: present}
+  - {name: grim, state: present}
+  - {name: pavucontrol, state: present}
+  - {name: playerctl, state: present}
+  - {name: slurp, state: present}
+  - {name: surfraw, state: present}
+  - {name: sysstat, state: present}
+  - {name: variety, state: present}
+  - {name: waydroid, state: present}
+  - {name: wl-clipboard, state: present}
+  - {name: wofi, state: present}
+  - {name: xbindkeys, state: present}
+  - {name: dolphin, state: present}

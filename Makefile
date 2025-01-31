@@ -7,6 +7,9 @@ provision-ubuntu:
 provision-arch:
 	ansible-playbook main-arch.yml -i inventory
 
+provision-m1:
+	ansible-playbook main-m1.yml -i inventory
+
 provision-macos:
 	ansible-playbook main-macos.yml -i inventory
 
