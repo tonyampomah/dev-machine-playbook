@@ -11,3 +11,11 @@
     name: "{{ item.name }}"
     state: "{{ item.state}}"
   with_items: "{{ window_manager_packages }}"
+
+- name: Install window manager aur packages
+  kewlfft.aur.aur:
+    use: yay
+    name: "{{ item.name }}"
+    state: "{{ item.state}}"
+  with_items: "{{ window_manager_aur_packages }}"
+  become_user: "{{username}}"

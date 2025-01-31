@@ -1,9 +1,11 @@
 ---
 window_manager_packages:
+  - {name: xmonad, state: present}
+  - {name: xmonad-contrib, state: present}
+  - {name: polybar, state: present}
   - {name: sway, state: present}
   - {name: hyprland, state: present}
   - {name: hyprlock, state: present}
-  - {name: hyprpaper, state: present}
   - {name: wlogout, state: present}
   - {name: waybar, state: present}
   - {name: acpi, state: present}
@@ -30,4 +32,13 @@ window_manager_packages:
   - {name: wofi, state: present}
   - {name: xbindkeys, state: present}
   - {name: xcape, state: present}
-  - {name: dolphin, state: present}
+  - {name: lxappearance, state: present}
+  - {name: qt5ct, state: present}
+
+window_manager_aur_packages:
+  - {name: picom-jonaburg-git, state: present}
+  - {name: whitesur-gtk-theme, state: present}
+  - {name: whitesur-icon-theme, state: present}
+  - {name: whitesur-cursor-theme-git, state: present}
+  - {name: waypaper, state: present}
+  - {name: swww, state: present}

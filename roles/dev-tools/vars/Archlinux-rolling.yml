@@ -9,6 +9,7 @@ dev_tools_packages:
   - {name: python-pip, state: present}
   - {name: cmatrix, state: present}
   - {name: zsh, state: present}
+  - {name: aws-cli, state: present}
 
 dev_tools_aur_packages:
   - {name: phpstorm, state: present}
