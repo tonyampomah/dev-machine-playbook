@@ -8,5 +8,3 @@
     - { role: elliotweiser.osx-command-line-tools, tags: [command-line-tools] }
     - { role: geerlingguy.mac.homebrew, tags: [homebrew] }
     - { role: user-configuration, tags: [user-configuration] }
-    - { role: geerlingguy.dotfiles, tags: [dotfiles]}
-    - { role: emacs-macos, tags: [emacs-macos] }

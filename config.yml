@@ -7,66 +7,46 @@ dotfiles_repo: "git@github.com:kwame-dat/dotfiles.git"
 dotfiles_repo_version: main
 dotfiles_repo_local_destination: "~/Repo/2Areas/dotfiles"
 
-dotfiles_files:
-  - .Xresources
-  - .aliases
-  - .bin
-  - .config
-  - .ca-bundle.crt
-  - .ca-bundle.crt
-  - .functions
-  - .gitconfig
-  - .gitignore_global
-  - .mbsyncrc
-  - .mpd
-  - .php-cs-fixer
-  - .tmux.conf
-  - .zshrc
-
 homebrew_installed_packages:
-  - emacs-plus
-  - composer
-  - fd
-  - cmake
-  - global
-  - glslang
-  - sbcl
-  - node
-  - ledger
-  - mu
-  - pandoc
-  - pass
-  - ripgrep
-  - wget
   - aspell
-  - coreutils
-  - editorconfig
-  - fzf
-  - git
-  - gnu-tar
-  - go
-  - libvterm
-  - markdown
-  - nvm
-  - readline
-  - sqlite
-  - awscli
-  - isync
-  - browserpass
-  - roots/tap/trellis-cli
-  - pkg-config
-  - poppler
   - autoconf
   - automake
-  - neofetch
+  - awscli
+  - browserpass
+  - cmake
+  - composer
+  - coreutils
+  - editorconfig
+  - emacs-plus
+  - fd
+  - fzf
+  - git
+  - global
+  - glslang
+  - gnu-tar
+  - go
+  - isync
   - jq
+  - ledger
+  - libvterm
+  - markdown
+  - mu
+  - neofetch
+  - node
+  - nvm
+  - pandoc
+  - pass
+  - pkg-config
+  - poppler
+  - readline
+  - ripgrep
+  - roots/tap/trellis-cli
+  - sbcl
+  - sqlite
+  - stow
+  - wget
 
-homebrew_taps:
-  - homebrew/core
-  - homebrew/cask
-  - homebrew/cask-fonts
-  - amar1729/formulae
-  - d12frosted/emacs-plus
+homebrew_taps: []
 
 homebrew_cask_appdir: /Applications
 
@@ -77,32 +57,22 @@ homebrew_cask_apps:
   - audacity
   - balenaetcher
   - calibre
-  - discord
-  - diskmaker-x
   - docker
   - font-cantarell
-  - font-inconsolata
   - gimp
   - google-chrome
-  - insomnia
-  - lastpass
   - logitech-options
   - mactex
-  - meld
   - microsoft-remote-desktop
   - mixxx
   - nextcloud
   - obs
-  # - parallels
   - responsively
   - screaming-frog-seo-spider
   - slack
-  - spectacle
   - stoplight-studio
   - tableplus
-  - tidal
   - vagrant
-  - visual-studio-code
   - vlc
   - whatsapp
   - zoom
