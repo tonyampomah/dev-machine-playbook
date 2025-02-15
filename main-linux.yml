@@ -16,5 +16,7 @@
     - {role: php, tags: [php]}
     - {role: composer, tags: [composer]}
   tasks:
-    - include_tasks: tasks/printer.yaml
+    - include_tasks: tasks/clone-projects.yml
+      tags: ['clone-projects']
+    - include_tasks: tasks/printer.yml
       tags: ['printer']

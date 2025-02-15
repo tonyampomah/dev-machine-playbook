@@ -3,9 +3,13 @@ username: tonyampomah
 composer_home_owner: tonyampomah
 composer_home_group: tonyampomah
 
-dotfiles_repo: "git@github.com:kwame-dat/dotfiles.git"
+dotfiles_repo: "git@github.com:tonyampomah/dotfiles.git"
 dotfiles_repo_version: main
 dotfiles_repo_local_destination: "~/Repo/2Areas/dotfiles"
+
+repo:
+  - dwmblocks
+  - dwm
 
 homebrew_installed_packages:
   - aspell

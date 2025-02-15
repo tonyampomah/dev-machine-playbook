@@ -1,4 +1,4 @@
-* kwame-dat/dev-machine-playbook
+* tonyampomah/dev-machine-playbook
 Uses [[https://www.ansible.com/][Ansible]] to provision and setup my development machine from scratch so I
 don't have to do things manually.
 
@@ -31,15 +31,11 @@ Hence I plan to support the following Operating Systems;
     #+end_src
 - Clone or download this repository to your local drive.
   #+begin_src bash
-    git clone https://github.com/kwame-dat/dev-machine-playbook.git
-  #+end_src
-- Run the command below inside cloned directory to install required Ansible roles
-  #+begin_src bash
-    ansible-galaxy install -r requirements.yml
+    git clone https://github.com/tonyampomah/dev-machine-playbook.git
   #+end_src
 - Provision
   #+begin_src bash
-    ansible-playbook main-macos.yml -i inventory
+    make provision-macos
   #+end_src
 
 *** Arch
@@ -47,39 +43,27 @@ Hence I plan to support the following Operating Systems;
   #+begin_src bash
     sudo pacman -S ansible
   #+end_src
-- Install dependecies
-  #+begin_src bash
-    ansible-galaxy install -r requirements.yml
-  #+end_src
 - Provision
   #+begin_src bash
-    ansible-playbook main-arch.yml -i inventory
+    make provision-linux
   #+end_src
 *** Ubuntu
 - Install ansible
   #+begin_src bash
     sudo apt install ansible -y
   #+end_src
-- Install dependecies
-  #+begin_src bash
-    ansible-galaxy install -r requirements.yml
-  #+end_src
 - Provision
   #+begin_src bash
-    ansible-playbook main-ubuntu.yml -i inventory
+    make provision-linux
   #+end_src
 *** Window WSL2 Ubuntu
 - Install ansible
   #+begin_src bash
     sudo apt install ansible -y
   #+end_src
-- Install dependecies
-  #+begin_src bash
-    ansible-galaxy install -r requirements.yml
-  #+end_src
 - Provision
   #+begin_src bash
-    ansible-playbook main-wsl-ubuntu.yml -i inventory
+    make provision-linux
   #+end_src
 ** Development
 *** Prerequisite
