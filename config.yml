@@ -3,13 +3,21 @@ username: tonyampomah
 composer_home_owner: tonyampomah
 composer_home_group: tonyampomah
 
-dotfiles_repo: "git@github.com:tonyampomah/dotfiles.git"
-dotfiles_repo_version: main
-dotfiles_repo_local_destination: "~/Repo/2Areas/dotfiles"
-
 repo:
   - dwmblocks
   - dwm
+
+repo_arksolutions_it:
+  - tableplus
+  - base-next-js
+  - arksolutions.it
+  - responsively-app
+  - module-strapi
+  - base-strapi
+  - newearswickmobility.co.uk
+  - arksolutions.it-finance
+  - strapi-plugin-permalinks
+  - arksolutions.it-proxy
 
 homebrew_installed_packages:
   - aspell
