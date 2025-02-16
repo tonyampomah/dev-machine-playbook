@@ -8,16 +8,16 @@ repo:
   - dwm
 
 repo_arksolutions_it:
-  - tableplus
-  - base-next-js
   - arksolutions.it
-  - responsively-app
-  - module-strapi
-  - base-strapi
-  - newearswickmobility.co.uk
   - arksolutions.it-finance
-  - strapi-plugin-permalinks
   - arksolutions.it-proxy
+  - base-next-js
+  - base-strapi
+  - module-strapi
+  - newearswickmobility.co.uk
+  - responsively-app
+  - strapi-plugin-permalinks
+  - tableplus
 
 homebrew_installed_packages:
   - aspell
