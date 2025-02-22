@@ -4,19 +4,18 @@
   become: true
   vars_files:
     - config.yml
-
   roles:
     - {role: user-configuration, tags: [user-configuration]}
-    - {role: general-apps, tags: [general-apps]}
+    - {role: fonts, tags: [fonts]}
     - {role: emacs, tags: [emacs, emacs-packages]}
+    - {role: general-apps, tags: [general-apps]}
     - {role: window-manager, tags: [window-manager]}
     - {role: web-browsers, tags: [web-browsers]}
     - {role: dev-tools, tags: [dev-tools]}
     - {role: docker, tags: [docker]}
-    - {role: php, tags: [php]}
-    - {role: composer, tags: [composer]}
   tasks:
-    - include_tasks: tasks/clone-projects.yml
-      tags: ['clone-projects']
-    - include_tasks: tasks/printer.yml
-      tags: ['printer']
+  - include_tasks: tasks/printer.yml
+    tags: ['printer']
+  - include_tasks: tasks/clone-projects.yml
+    tags: ['clone-projects']
+
