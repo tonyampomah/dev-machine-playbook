@@ -8,7 +8,6 @@ emacs_packages:
   - {name: ripgrep, state: present}
   - {name: xmlstarlet, state: present}
   - {name: isync, state: present}
-  - {name: mu, state: present}
   - {name: editorconfig-core-c, state: present}
   - {name: languagetool, state: present}
 
