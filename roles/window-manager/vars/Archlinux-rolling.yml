@@ -1,41 +1,28 @@
 ---
 window_manager_packages:
-  - {name: xmonad, state: present}
-  - {name: xmonad-contrib, state: present}
-  - {name: polybar, state: present}
-  - {name: sway, state: present}
   - {name: hyprland, state: present}
   - {name: hyprlock, state: present}
   - {name: hyprpaper, state: present}
   - {name: pipewire, state: present}
   #- {name: wireplumber, state: present}
   - {name: xdg-desktop-portal-hyprland, state: present}
-  - {name: wlogout, state: present}
   - {name: waybar, state: present}
   - {name: acpi, state: present}
-  - {name: arandr, state: present}
-  - {name: autorandr, state: present}
   - {name: brightnessctl, state: present}
-  - {name: compton, state: present}
-  - {name: dunst, state: present}
   - {name: feh, state: present}
   - {name: gammastep, state: present}
   - {name: grim, state: present}
   - {name: pavucontrol, state: present}
   - {name: playerctl, state: present}
   - {name: pulseaudio, state: present}
-  # - {name: rofi, state: present}
+  - {name: nwg-look, state: present}
   - {name: rofi-calc, state: present}
   - {name: rofi-pass, state: present}
   - {name: slurp, state: present}
   - {name: surfraw, state: present}
   - {name: sysstat, state: present}
-  - {name: variety, state: present}
   - {name: waydroid, state: present}
   - {name: wl-clipboard, state: present}
-  - {name: wofi, state: present}
-  - {name: xbindkeys, state: present}
-  - {name: xcape, state: present}
   - {name: lxappearance, state: present}
   - {name: qt5ct, state: present}
 

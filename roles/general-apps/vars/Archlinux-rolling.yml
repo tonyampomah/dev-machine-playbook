@@ -2,9 +2,7 @@
 general_packages:
   - {name: nextcloud-client, state: present}
   - {name: calibre, state: present}
-  - {name: android-file-transfer, state: present}
   - {name: kdeconnect, state: present}
-  - {name: remmina, state: present}
   - {name: freerdp, state: present}
   - {name: mpv, state: present}
   - {name: zoom, state: present}
@@ -14,7 +12,6 @@ general_packages:
   - {name: audacity, state: present}
   - {name: youtube-dl, state: present}
   - {name: lmms, state: present}
-  - {name: freecad, state: present}
   - {name: gimp, state: present}
   - {name: blender, state: present}
   - {name: kdenlive, state: present}

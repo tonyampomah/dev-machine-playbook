@@ -12,11 +12,7 @@ dev_tools_packages:
   - {name: aws-cli, state: present}
 
 dev_tools_aur_packages:
-  - {name: phpstorm, state: present}
-  - {name: stoplight-studio-appimage, state: present}
-  - {name: postman-bin, state: present}
-  - {name: insomnia-bin, state: present}
-  - {name: insomnia-designer-bin, state: present}
+  - {name: oh-my-zsh-git, state: present}
   - {name: dbeaver, state: present}
   - {name: tableplus, state: present}
   - {name: alacritty-ligatures-git, state: present}
