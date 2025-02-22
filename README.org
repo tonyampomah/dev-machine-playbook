@@ -35,7 +35,7 @@ Hence I plan to support the following Operating Systems;
   #+end_src
 - Provision
   #+begin_src bash
-    make provision-macos
+    make macos
   #+end_src
 
 *** Arch
@@ -45,7 +45,7 @@ Hence I plan to support the following Operating Systems;
   #+end_src
 - Provision
   #+begin_src bash
-    make provision-linux
+    make linux
   #+end_src
 *** Ubuntu
 - Install ansible
@@ -54,7 +54,7 @@ Hence I plan to support the following Operating Systems;
   #+end_src
 - Provision
   #+begin_src bash
-    make provision-linux
+    make linux
   #+end_src
 *** Window WSL2 Ubuntu
 - Install ansible
@@ -63,7 +63,7 @@ Hence I plan to support the following Operating Systems;
   #+end_src
 - Provision
   #+begin_src bash
-    make provision-linux
+    make linux
   #+end_src
 ** Development
 *** Prerequisite
