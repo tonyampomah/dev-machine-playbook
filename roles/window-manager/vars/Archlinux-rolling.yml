@@ -6,8 +6,9 @@ window_manager_packages:
   - {name: sway, state: present}
   - {name: hyprland, state: present}
   - {name: hyprlock, state: present}
+  - {name: hyprpaper, state: present}
   - {name: pipewire, state: present}
-  - {name: wireplumber, state: present}
+  #- {name: wireplumber, state: present}
   - {name: xdg-desktop-portal-hyprland, state: present}
   - {name: wlogout, state: present}
   - {name: waybar, state: present}
@@ -39,7 +40,6 @@ window_manager_packages:
   - {name: qt5ct, state: present}
 
 window_manager_aur_packages:
-  - {name: picom-jonaburg-git, state: present}
   - {name: whitesur-gtk-theme, state: present}
   - {name: whitesur-icon-theme, state: present}
   - {name: whitesur-cursor-theme-git, state: present}
