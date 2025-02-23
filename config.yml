@@ -3,9 +3,7 @@ username: tonyampomah
 composer_home_owner: tonyampomah
 composer_home_group: tonyampomah
 
-repo:
-  - dwmblocks
-  - dwm
+repo: []
 
 repo_arksolutions_it:
   - arksolutions.it

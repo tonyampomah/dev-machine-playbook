@@ -14,8 +14,8 @@
     - {role: dev-tools, tags: [dev-tools]}
     - {role: docker, tags: [docker]}
   tasks:
-  - include_tasks: tasks/printer.yml
+  - import_tasks: tasks/printer.yml
     tags: ['printer']
-  - include_tasks: tasks/clone-projects.yml
+  - import_tasks: tasks/clone-projects.yml
     tags: ['clone-projects']
 
