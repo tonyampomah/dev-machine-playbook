@@ -10,6 +10,9 @@ dev_tools_packages:
   - {name: cmatrix, state: present}
   - {name: zsh, state: present}
   - {name: aws-cli, state: present}
+  - {name: kitty, state: present}
+  - {name: fzf, state: present}
+  - {name: prettier, state: present}
 
 dev_tools_aur_packages:
   - {name: oh-my-zsh-git, state: present}

@@ -16,7 +16,6 @@ general_packages:
   - {name: blender, state: present}
   - {name: kdenlive, state: present}
   - {name: libreoffice-fresh, state: present}
-  - {name: slack-desktop, state: present}
   - {name: teams, state: present}
   - {name: browserpass, state: present}
 
@@ -26,3 +25,4 @@ general_aur_packages:
   - {name: balena-etcher, state: present}
   - {name: remmina-plugin-rdesktop, state: present}
   - {name: wordnet-cli, state: present}
+  - {name: slack-desktop-wayland, state: present}
