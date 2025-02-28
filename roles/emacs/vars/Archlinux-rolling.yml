@@ -10,6 +10,8 @@ emacs_packages:
   - {name: isync, state: present}
   - {name: editorconfig-core-c, state: present}
   - {name: languagetool, state: present}
+  - {name: texlive, state: present}
 
 emacs_aur_packages:
   - {name: mu, state: present}
+  - {name: emacs-wayland, state: present}

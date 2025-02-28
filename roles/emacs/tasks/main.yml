@@ -6,11 +6,6 @@
         - "{{ ansible_distribution }}-{{ ansible_distribution_major_version }}.yml"
       skip: true
 
-- name: Install Emacs
-  package:
-    name: emacs
-    state: present
-
 - name: Install Emacs Packages
   package:
     name: "{{ item.name }}"
