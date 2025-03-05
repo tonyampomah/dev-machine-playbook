@@ -39,3 +39,4 @@ window_manager_aur_packages:
   - {name: waypaper, state: present}
   - {name: swww, state: present}
   - {name: rofi-wayland, state: present}
+  - {name: hyprsunset, state: present}
