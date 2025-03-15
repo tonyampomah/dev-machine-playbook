@@ -86,3 +86,7 @@ homebrew_cask_apps:
   - vlc
   - whatsapp
   - zoom
+
+pip_packages:
+  - name: robotframework-lsp
+    state: present

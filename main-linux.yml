@@ -18,4 +18,5 @@
     tags: ['printer']
   - import_tasks: tasks/clone-projects.yml
     tags: ['clone-projects']
-
+  - import_tasks: tasks/extra-packages.yml
+    tags: ["extra-packages"]
