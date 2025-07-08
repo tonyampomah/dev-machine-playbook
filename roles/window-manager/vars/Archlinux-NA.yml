@@ -27,6 +27,9 @@ window_manager_packages:
   - {name: qt6-svg, state: present}
   - {name: qt6-declarative, state: present}
   - {name: qt5-quickcontrols2, state: present}
+  - {name: bluez, state: present}
+  - {name: bluez-utils, state: present}
+  - {name: blueman, state: present}
 
 window_manager_aur_packages:
   - {name: whitesur-gtk-theme, state: present}
