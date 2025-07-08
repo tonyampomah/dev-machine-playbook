@@ -1,0 +1,41 @@
+---
+window_manager_packages:
+  - {name: hyprland, state: present}
+  - {name: hyprlock, state: present}
+  - {name: hyprpaper, state: present}
+  - {name: pipewire, state: present}
+  - {name: wireplumber, state: present}
+  - {name: xdg-desktop-portal-hyprland, state: present}
+  - {name: waybar, state: present}
+  - {name: acpi, state: present}
+  - {name: brightnessctl, state: present}
+  - {name: feh, state: present}
+  - {name: gammastep, state: present}
+  - {name: grim, state: present}
+  - {name: pavucontrol, state: present}
+  - {name: playerctl, state: present}
+  - {name: nwg-look, state: present}
+  - {name: rofi-calc, state: present}
+  - {name: rofi-pass, state: present}
+  - {name: slurp, state: present}
+  - {name: surfraw, state: present}
+  - {name: sysstat, state: present}
+  # - {name: waydroid, state: present}
+  - {name: wl-clipboard, state: present}
+  - {name: lxappearance, state: present}
+  - {name: qt5ct, state: present}
+  - {name: qt6-svg, state: present}
+  - {name: qt6-declarative, state: present}
+  - {name: qt5-quickcontrols2, state: present}
+
+window_manager_aur_packages:
+  - {name: whitesur-gtk-theme, state: present}
+  - {name: whitesur-icon-theme, state: present}
+  - {name: catppuccin-gtk-theme-macchiato, state: present}
+  - {name: catppuccin-cursors-git, state: present}
+  - {name: whitesur-cursor-theme-git, state: present}
+  - {name: papirus-folders-catppuccin-git, state: present}
+  - {name: waypaper, state: present}
+  - {name: swww, state: present}
+  # - {name: rofi-wayland, state: present}
+  - {name: hyprsunset, state: present}

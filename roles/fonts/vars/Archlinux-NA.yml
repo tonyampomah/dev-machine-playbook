@@ -1,0 +1,4 @@
+---
+fonts_packages:
+  - {name: ttf-cascadia-code, state: present}
+  - {name: ttf-firacode-nerd, state: present}
