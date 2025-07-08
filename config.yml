@@ -3,7 +3,10 @@ username: tonyampomah
 composer_home_owner: tonyampomah
 composer_home_group: tonyampomah
 
-repo: []
+repo:
+  - org
+  # - dotfiles
+  # - dev-machine-playbook
 
 repo_arksolutions_it:
   - arksolutions.it
