@@ -1,5 +1,6 @@
 ---
 - name: Clone Personal Repo
+  become: false
   ansible.builtin.git:
     repo: "git@github.com:tonyampomah/{{ item }}.git"
     dest: "~/Repo/{{ item }}"
@@ -8,6 +9,7 @@
   with_items: "{{ repo }}"
 
 - name: Clone Arksolutions.it Repo
+  become: false
   ansible.builtin.git:
     repo: "git@github.com:arksolutions-it/{{ item }}.git"
     dest: "~/Repo/{{ item }}"
