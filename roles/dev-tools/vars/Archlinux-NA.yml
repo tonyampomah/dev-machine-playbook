@@ -3,7 +3,6 @@ dev_tools_packages:
   - {name: base-devel, state: present}
   - {name: binutils, state: present}
   - {name: htop, state: present}
-  - {name: vagrant, state: present}
   - {name: virtualbox, state: present}
   - {name: dnsutils, state: present}
   - {name: python-pip, state: present}
@@ -13,6 +12,7 @@ dev_tools_packages:
   - {name: kitty, state: present}
   - {name: fzf, state: present}
   - {name: prettier, state: present}
+  # - {name: vagrant, state: present}
 
 # dev_tools_aur_packages:
 #   - {name: oh-my-zsh-git, state: present}
