@@ -25,10 +25,10 @@ general_packages:
   - {name: zathura-cb, state: present}
 
 
-# general_aur_packages:
-#   - {name: whatsdesk-bin, state: present}
-#   - {name: image_optim, state: present}
-#   - {name: balena-etcher, state: present}
-#   - {name: remmina-plugin-rdesktop, state: present}
-#   - {name: wordnet-cli, state: present}
-#   - {name: slack-desktop-wayland, state: present}
+general_aur_packages:
+  - {name: whatsapp-for-linux, state: present}
+  # - {name: image_optim, state: present}
+  # - {name: balena-etcher, state: present}
+  # - {name: remmina-plugin-rdesktop, state: present}
+  # - {name: wordnet-cli, state: present}
+  # - {name: slack-desktop-wayland, state: present}
