@@ -42,3 +42,5 @@ window_manager_aur_packages:
   - {name: swww, state: present}
   # - {name: rofi-wayland, state: present}
   - {name: hyprsunset, state: present}
+  - {name: bibata-cursor-theme, state: present}
+
