@@ -18,6 +18,12 @@ general_packages:
   - {name: libreoffice-fresh, state: present}
   # - {name: teams, state: present}
   - {name: browserpass, state: present}
+  - {name: zathura, state: present}
+  - {name: zathura-pdf-mupdf, state: present}
+  - {name: zathura-djvu, state: present}
+  - {name: zathura-ps, state: present}
+  - {name: zathura-cb, state: present}
+
 
 # general_aur_packages:
 #   - {name: whatsdesk-bin, state: present}
