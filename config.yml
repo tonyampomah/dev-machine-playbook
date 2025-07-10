@@ -6,7 +6,7 @@ composer_home_group: tonyampomah
 repo:
   - org
   # - dotfiles
-  # - dev-machine-playbook
+  - dev-machine-playbook
 
 repo_arksolutions_it:
   - arksolutions.it
