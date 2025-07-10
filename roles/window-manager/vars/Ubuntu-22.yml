@@ -1,7 +1,5 @@
 ---
 window_manager_packages:
-  - {name: sway, state: present}
-  - {name: waybar, state: present}
   - {name: acpi, state: present}
   - {name: arandr, state: present}
   - {name: autorandr, state: present}
@@ -19,8 +17,10 @@ window_manager_packages:
   - {name: rofi-pass, state: present}
   - {name: slurp, state: present}
   - {name: surfraw, state: present}
+  - {name: sway, state: present}
   - {name: sysstat, state: present}
   - {name: variety, state: present}
+  - {name: waybar, state: present}
   - {name: waydroid, state: present}
   - {name: wl-clipboard, state: present}
   - {name: wofi, state: present}

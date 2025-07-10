@@ -1,17 +1,17 @@
 ---
 emacs_packages:
-  - {name: cmake, state: present}
   - {name: aspell, state: present}
   - {name: aspell-en, state: present}
+  - {name: cmake, state: present}
+  - {name: editorconfig-core-c, state: present}
+  - {name: isync, state: present}
+  - {name: languagetool, state: present}
   - {name: ledger, state: present}
   - {name: pandoc, state: present}
   - {name: ripgrep, state: present}
-  - {name: xmlstarlet, state: present}
-  - {name: isync, state: present}
-  - {name: editorconfig-core-c, state: present}
-  - {name: languagetool, state: present}
   - {name: texlive, state: present}
+  - {name: xmlstarlet, state: present}
 
 emacs_aur_packages:
-  - {name: mu, state: present}
   - {name: emacs-wayland, state: present}
+  - {name: mu, state: present}
