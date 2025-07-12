@@ -27,8 +27,8 @@ general_packages:
 
 general_aur_packages:
   # - {name: balena-etcher, state: present}
-  # - {name: image_optim, state: present}
+  - {name: image_optim, state: present}
   # - {name: remmina-plugin-rdesktop, state: present}
-  # - {name: slack-desktop-wayland, state: present}
+  - {name: slack-desktop-wayland, state: present}
   # - {name: wordnet-cli, state: present}
   - {name: whatsapp-for-linux, state: present}

@@ -11,6 +11,7 @@ dev_tools_packages:
   - {name: kitty, state: present}
   - {name: prettier, state: present}
   - {name: python-pip, state: present}
+  - {name: rsync, state: present}
   - {name: virtualbox, state: present}
   - {name: zsh, state: present}
 
