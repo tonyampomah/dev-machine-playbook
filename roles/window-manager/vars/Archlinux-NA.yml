@@ -30,6 +30,7 @@ window_manager_packages:
   - {name: wireplumber, state: present}
   - {name: wl-clipboard, state: present}
   - {name: xdg-desktop-portal-hyprland, state: present}
+  - {name: swaync, state: present}
 
 window_manager_aur_packages:
   - {name: bibata-cursor-theme, state: present}
@@ -43,3 +44,4 @@ window_manager_aur_packages:
   - {name: whitesur-cursor-theme-git, state: present}
   - {name: whitesur-gtk-theme, state: present}
   - {name: whitesur-icon-theme, state: present}
+  - {name: waypaper, state: present}
