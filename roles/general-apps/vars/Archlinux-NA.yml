@@ -23,6 +23,7 @@ general_packages:
   - {name: zathura-djvu, state: present}
   - {name: zathura-pdf-mupdf, state: present}
   - {name: zathura-ps, state: present}
+  - {name: rhythmbox, state: present}
 
 
 general_aur_packages:
