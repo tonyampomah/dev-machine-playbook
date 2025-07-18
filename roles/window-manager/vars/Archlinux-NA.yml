@@ -33,13 +33,11 @@ window_manager_packages:
   - {name: swaync, state: present}
   - {name: network-manager-applet, state: present}
   - {name: networkmanager, state: present}
+  - {name: hyprcursor, state: present}
 
 window_manager_aur_packages:
-  - {name: bibata-cursor-theme, state: present}
-  - {name: catppuccin-cursors-git, state: present}
   - {name: catppuccin-gtk-theme-macchiato, state: present}
   - {name: hyprsunset, state: present}
-  - {name: papirus-folders-catppuccin-git, state: present}
   - {name: rofi-wayland, state: present}
   - {name: swww, state: present}
   - {name: waypaper, state: present}
@@ -47,3 +45,5 @@ window_manager_aur_packages:
   - {name: whitesur-gtk-theme, state: present}
   - {name: whitesur-icon-theme, state: present}
   - {name: waypaper, state: present}
+  - {name: rose-pine-hyprcursor, state: present}
+  - {name: bibata-cursor-theme, state: present}
