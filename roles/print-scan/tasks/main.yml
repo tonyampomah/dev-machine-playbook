@@ -1,0 +1,23 @@
+---
+- name: Include distribution and version-specific vars.
+  include_vars: "{{ item }}"
+  with_first_found:
+    - files:
+        - "{{ ansible_distribution }}-{{ ansible_distribution_major_version }}.yml"
+      skip: true
+
+- name: Install printing and scanning packages
+  package:
+    name: "{{ item.name }}"
+    state: "{{ item.state}}"
+  with_items: "{{ print_scan_packages }}"
+
+- name: Start service cups.service
+  service:
+    name: cups.service
+    state: started
+
+- name: Enable service cups.service
+  service:
+    name: cups.service
+    enabled: yes

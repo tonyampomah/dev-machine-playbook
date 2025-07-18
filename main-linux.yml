@@ -6,6 +6,7 @@
     - config.yml
   roles:
     - {role: user-configuration, tags: [user-configuration]}
+    - {role: print-scan, tags: [print-scan]}
     - {role: fonts, tags: [fonts]}
     - {role: emacs, tags: [emacs, emacs-packages]}
     - {role: general-apps, tags: [general-apps]}
@@ -14,8 +15,6 @@
     - {role: dev-tools, tags: [dev-tools]}
     - {role: docker, tags: [docker]}
   tasks:
-  - import_tasks: tasks/printer.yml
-    tags: ['printer']
   - import_tasks: tasks/clone-projects.yml
     tags: ['clone-projects']
   - import_tasks: tasks/extra-packages.yml

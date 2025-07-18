@@ -31,6 +31,8 @@ window_manager_packages:
   - {name: wl-clipboard, state: present}
   - {name: xdg-desktop-portal-hyprland, state: present}
   - {name: swaync, state: present}
+  - {name: network-manager-applet, state: present}
+  - {name: networkmanager, state: present}
 
 window_manager_aur_packages:
   - {name: bibata-cursor-theme, state: present}

@@ -1,0 +1,7 @@
+---
+print_scan_packages:
+  - {name: cups, state: present}
+  - {name: sane-airscan, state: present}
+  - {name: sane, state: present}
+  - {name: ipp-usb, state: present}
+  - {name: simple-scan, state: present}
