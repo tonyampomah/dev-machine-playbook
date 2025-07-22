@@ -2,5 +2,6 @@
 fonts_packages:
   - {name: noto-fonts, state: present}
   - {name: ttf-cascadia-code, state: present}
-  - {name: ttf-firacode-nerd, state: present}
   - {name: ttf-roboto, state: present}
+  - {name: ttf-fira-sans, state: present}
+  - {name: ttf-font-awesome, state: present}

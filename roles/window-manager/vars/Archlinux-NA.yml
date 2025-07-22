@@ -34,6 +34,7 @@ window_manager_packages:
   - {name: network-manager-applet, state: present}
   - {name: networkmanager, state: present}
   - {name: hyprcursor, state: present}
+  - {name: fastfetch, state: present}
 
 window_manager_aur_packages:
   - {name: catppuccin-gtk-theme-macchiato, state: present}
@@ -47,3 +48,4 @@ window_manager_aur_packages:
   - {name: waypaper, state: present}
   - {name: rose-pine-hyprcursor, state: present}
   - {name: bibata-cursor-theme, state: present}
+  - {name: wlogout, state: present}
