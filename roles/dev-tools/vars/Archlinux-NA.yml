@@ -14,6 +14,7 @@ dev_tools_packages:
   - {name: rsync, state: present}
   - {name: virtualbox, state: present}
   - {name: zsh, state: present}
+  - {name: nfs-utils, state: present}
 
 dev_tools_aur_packages:
   - {name: pyenv, state: present}

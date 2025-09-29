@@ -35,6 +35,7 @@ window_manager_packages:
   - {name: networkmanager, state: present}
   - {name: hyprcursor, state: present}
   - {name: fastfetch, state: present}
+  - {name: polkit-gnome, state: present}
 
 window_manager_aur_packages:
   - {name: catppuccin-gtk-theme-macchiato, state: present}
