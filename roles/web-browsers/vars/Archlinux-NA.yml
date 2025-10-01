@@ -4,3 +4,6 @@ web_browsers_packages:
   - {name: chromium, state: present}
   - {name: firefox, state: present}
   - {name: qutebrowser, state: present}
+  - {name: browserpass, state: present}
+  - {name: browserpass-firefox, state: present}
+  - {name: browserpass-chromium, state: present}
