@@ -36,6 +36,12 @@ window_manager_packages:
   - {name: hyprcursor, state: present}
   - {name: fastfetch, state: present}
   - {name: polkit-gnome, state: present}
+  - {name: xorg-xsetroot, state: present}
+  - {name: xorg-xinput, state: present}
+  - {name: dunst, state: present}
+  - {name: xmonad, state: present}
+  - {name: xmonad-contrib, state: present}
+  - {name: xmonad-dbus, state: present}
 
 window_manager_aur_packages:
   - {name: catppuccin-gtk-theme-macchiato, state: present}
