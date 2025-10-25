@@ -42,6 +42,11 @@ window_manager_packages:
   - {name: xmonad, state: present}
   - {name: xmonad-contrib, state: present}
   - {name: xmonad-dbus, state: present}
+  - {name: variety, state: present}
+  - {name: redshift, state: present}
+  - {name: polybar, state: present}
+  - {name: scrot, state: present}
+  - {name: maim, state: present}
 
 window_manager_aur_packages:
   - {name: catppuccin-gtk-theme-macchiato, state: present}
