@@ -1,6 +1,5 @@
 ---
 window_manager_packages:
-  # - {name: waydroid, state: present}
   - {name: acpi, state: present}
   - {name: blueman, state: present}
   - {name: bluez, state: present}
@@ -47,6 +46,8 @@ window_manager_packages:
   - {name: polybar, state: present}
   - {name: scrot, state: present}
   - {name: maim, state: present}
+  - {name: sway, state: present}
+  - {name: swaybg, state: present}
 
 window_manager_aur_packages:
   - {name: catppuccin-gtk-theme-macchiato, state: present}
@@ -61,3 +62,4 @@ window_manager_aur_packages:
   - {name: rose-pine-hyprcursor, state: present}
   - {name: bibata-cursor-theme, state: present}
   - {name: wlogout, state: present}
+  - {name: wdisplays, state: present}
