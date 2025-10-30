@@ -4,6 +4,9 @@ install:
 linux: install
 	ansible-playbook main-linux.yml -i inventory
 
+linux-general-apps:
+	ansible-playbook main-linux.yml -i inventory --tags general-apps
+
 linux-fonts:
 	ansible-playbook main-linux.yml -i inventory --tags fonts
 
