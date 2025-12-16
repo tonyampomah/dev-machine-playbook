@@ -21,6 +21,7 @@ repo_arksolutions_it:
   - tableplus
 
 homebrew_installed_packages:
+  # - roots/tap/trellis-cli
   - aspell
   - autoconf
   - automake
@@ -32,6 +33,8 @@ homebrew_installed_packages:
   - editorconfig
   - emacs-plus
   - fd
+  - font-cascadia-code
+  - font-noto-sans
   - fzf
   - git
   - global
@@ -53,7 +56,6 @@ homebrew_installed_packages:
   - poppler
   - readline
   - ripgrep
-  - roots/tap/trellis-cli
   - sbcl
   - sqlite
   - stow
