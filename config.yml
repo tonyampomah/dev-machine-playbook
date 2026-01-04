@@ -47,9 +47,6 @@ homebrew_installed_packages:
   - libvterm
   - markdown
   - mu
-  - neofetch
-  - node
-  - nvm
   - pandoc
   - pass
   - pkg-config
@@ -60,13 +57,14 @@ homebrew_installed_packages:
   - sqlite
   - stow
   - wget
+  - fnm
+  - fastfetch
 
 homebrew_taps: []
 
 homebrew_cask_appdir: /Applications
 
 homebrew_cask_apps:
-  - alacritty
   - alfred
   - appcleaner
   - audacity
@@ -76,9 +74,9 @@ homebrew_cask_apps:
   - font-cantarell
   - gimp
   - google-chrome
-  - logitech-options
+  - logi-options+
+  - kitty
   - mactex
-  - microsoft-remote-desktop
   - mixxx
   - nextcloud
   - obs
