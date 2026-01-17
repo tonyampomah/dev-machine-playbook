@@ -12,12 +12,10 @@ repo_arksolutions_it:
   - arksolutions.it
   - arksolutions.it-finance
   - arksolutions.it-proxy
-  - base-next-js
-  - base-strapi
+  - finatec.co.uk
   - module-strapi
   - newearswickmobility.co.uk
   - responsively-app
-  - strapi-plugin-permalinks
   - tableplus
 
 homebrew_installed_packages:

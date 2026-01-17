@@ -21,8 +21,3 @@ general_packages:
   - {name: youtube-dl, state: present}
 
 general_aur_packages: []
-  # - {name: balena-etcher, state: present}
-  # - {name: image_optim, state: present}
-  # - {name: remmina-plugin-rdesktop, state: present}
-  # - {name: whatsdesk-bin, state: present}
-  # - {name: wordnet-cli, state: present}

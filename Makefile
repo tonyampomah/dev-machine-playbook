@@ -16,6 +16,9 @@ linux-emacs:
 linux-dev-tools:
 	ansible-playbook main-linux.yml -i inventory --tags dev-tools
 
+linux-docker:
+	ansible-playbook main-linux.yml -i inventory --tags docker
+
 linux-web-browsers:
 	ansible-playbook main-linux.yml -i inventory --tags web-browsers
 
