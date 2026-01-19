@@ -15,6 +15,8 @@ dev_tools_packages:
   - {name: virtualbox, state: present}
   - {name: zsh, state: present}
   - {name: nfs-utils, state: present}
+  - {name: inetutils, state: present}
+  - {name: ansible, state: present}
 
 dev_tools_aur_packages:
   - {name: pyenv, state: present}
