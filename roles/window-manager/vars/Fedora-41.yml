@@ -1,6 +1,7 @@
 ---
 window_manager_packages:
   - {name: acpi, state: present}
+  - {name: blueman, state: present}
   - {name: brightnessctl, state: present}
   - {name: compton, state: present}
   - {name: dolphin, state: present}

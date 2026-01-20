@@ -2,3 +2,8 @@
 dev_tools_packages:
   - {name: stow, state: present}
   - {name: fzf, state: present}
+  - {name: gstreamer1-libav, state: present}
+  - {name: libjpeg-turbo, state: present}
+  - {name: php, state: present}
+  - {name: composer, state: present}
+
