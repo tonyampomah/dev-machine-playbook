@@ -72,11 +72,12 @@ homebrew_cask_apps:
   - font-cantarell
   - gimp
   - google-chrome
-  - logi-options+
   - kitty
+  - logi-options+
   - mactex
   - mixxx
   - nextcloud
+  - nikitabobko/tap/aerospace
   - obs
   - responsively
   - screaming-frog-seo-spider
