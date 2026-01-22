@@ -6,4 +6,5 @@ dev_tools_packages:
   - {name: libjpeg-turbo, state: present}
   - {name: php, state: present}
   - {name: composer, state: present}
+  - {name: fastfetch, state: present}
 
