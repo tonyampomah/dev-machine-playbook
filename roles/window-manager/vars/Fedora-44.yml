@@ -1,6 +1,7 @@
 ---
 window_manager_packages:
   - {name: niri, state: present}
+  - {name: swaybg, state: present}
   - {name: acpi, state: present}
   - {name: blueman, state: present}
   - {name: brightnessctl, state: present}

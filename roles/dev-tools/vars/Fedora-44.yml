@@ -1,5 +1,6 @@
 ---
 dev_tools_packages:
+  - {name: zsh, state: present}
   - {name: stow, state: present}
   - {name: fzf, state: present}
   - {name: gstreamer1-libav, state: present}

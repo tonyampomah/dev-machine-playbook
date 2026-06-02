@@ -2,6 +2,7 @@
 emacs_packages:
   # - {name: editorconfig-core-c, state: present}
   # - {name: languagetool, state: present}
+  - {name: maildir-utils, state: present}
   - {name: libtool, state: present}
   - {name: aspell, state: present}
   - {name: aspell-en, state: present}

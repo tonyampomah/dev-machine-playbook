@@ -1,10 +1,13 @@
 ---
 general_packages:
   # - {name: libreoffice-fresh, state: present}
-  # - {name: mpd, state: present}
   # - {name: slack-desktop, state: present}
   # - {name: teams, state: present}
   # - {name: zoom, state: present}
+  - {name: mpd, state: present}
+  - {name: ncmpcpp, state: present}
+  - {name: pass, state: present}
+  - {name: htop, state: present}
   - {name: android-file-transfer, state: present}
   - {name: audacity, state: present}
   - {name: blender, state: present}
@@ -19,5 +22,6 @@ general_packages:
   - {name: nextcloud-client, state: present}
   - {name: remmina, state: present}
   - {name: youtube-dl, state: present}
+  - {name: thunderbird, state: present}
 
 general_aur_packages: []
