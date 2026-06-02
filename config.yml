@@ -93,3 +93,9 @@ homebrew_cask_apps:
 pip_packages:
   - name: robotframework-lsp
     state: present
+
+composer_packages: []
+
+npm_packages: []
+
+gem_packages: []

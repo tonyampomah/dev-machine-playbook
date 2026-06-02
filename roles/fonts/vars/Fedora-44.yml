@@ -1,0 +1,9 @@
+---
+fonts_packages:
+  - { name: google-noto-sans-fonts, state: present }
+  - { name: google-noto-serif-fonts, state: present }
+  - { name: google-noto-emoji-fonts, state: present }
+  - { name: cascadia-code-fonts, state: present }
+  - { name: google-roboto-fonts, state: present }
+  - { name: fira-code-fonts, state: present }
+  - { name: fontawesome-fonts-all, state: present }
