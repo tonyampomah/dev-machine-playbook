@@ -25,6 +25,9 @@ linux-web-browsers:
 linux-window-manager:
 	ansible-playbook main-linux.yml -i inventory --tags window-manager
 
+linux-install-pyenv:
+	ansible-playbook main-linux.yml -i inventory --tags install-pyenv
+
 m1-linux: install
 	ansible-playbook main-linux.yml -i inventory
 

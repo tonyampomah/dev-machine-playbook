@@ -1,0 +1,14 @@
+- name: Download pyenv installer
+  ansible.builtin.get_url:
+    url: https://pyenv.run
+    dest: /tmp/pyenv-installer.sh
+    mode: "0755"
+
+- name: Run pyenv installer as user
+  become: true
+  become_user: "{{ username }}"
+  ansible.builtin.command:
+    cmd: /tmp/pyenv-installer.sh
+    creates: "/home/{{ username }}/.pyenv"
+  environment:
+    HOME: "/home/{{ username }}"
