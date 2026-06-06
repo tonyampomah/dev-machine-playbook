@@ -12,5 +12,5 @@ emacs_packages:
   - {name: pandoc, state: present}
   - {name: ripgrep, state: present}
   - {name: xmlstarlet, state: present}
-  - {name: texlive, state: present}
+  - {name: texlive-scheme-full, state: present}
   - {name: emacs, state: present}
