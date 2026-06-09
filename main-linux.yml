@@ -1,7 +1,6 @@
 ---
 - hosts: all
   connection: local
-  become: true
   vars_files:
     - config.yml
   roles:
@@ -19,5 +18,7 @@
     tags: ['install-pyenv']
   - import_tasks: tasks/clone-projects.yml
     tags: ['clone-projects']
+  - import_tasks: tasks/dotfiles.yml
+    tags: ['dotfiles']
   - import_tasks: tasks/extra-packages.yml
     tags: ["extra-packages"]

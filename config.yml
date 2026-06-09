@@ -3,6 +3,8 @@ username: tonyampomah
 composer_home_owner: tonyampomah
 composer_home_group: tonyampomah
 
+dotfiles_repo: ~/Repo/2Areas/dotfiles/
+
 personal_repo:
   - dotfiles
   - dev-machine-playbook
@@ -100,3 +102,28 @@ composer_packages: []
 npm_packages: []
 
 gem_packages: []
+
+
+dotfiles_repo: "{{ lookup('env', 'HOME') }}/Repo/2Areas/dotfiles"
+dotfiles:
+  - .aliases
+  - .bin
+  - .ca-bundle.crt
+  - .config
+  - .emacs.d
+  - .functions
+  - .gitconfig
+  - .gitignore
+  - .gitignore_global
+  - .gtkrc-2.0
+  - .hushlogin
+  - .local
+  - .mbsyncrc
+  - .mpd
+  - nixos
+  - .php-cs-fixer
+  - .stow-local-ignore
+  - .tmux.conf
+  - .xmonad
+  - .Xresources
+  - .zshrc

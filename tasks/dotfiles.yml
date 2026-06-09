@@ -1,0 +1,32 @@
+- name: Stat destination
+  ansible.builtin.stat:
+    path: "{{ ansible_env.HOME }}/{{ item }}"
+  register: dotfile_stats
+  loop: "{{ dotfiles }}"
+
+- name: Backup existing non-symlink paths
+  ansible.builtin.command:
+    cmd: >
+      mv
+      {{ item.stat.path }}
+      {{ item.stat.path }}.pre-dotfiles
+  when:
+    - item.stat.exists
+    - not item.stat.islnk
+  loop: "{{ dotfile_stats.results }}"
+
+- name: Create parent directories
+  ansible.builtin.file:
+    path: "{{ ansible_env.HOME }}/{{ item | dirname }}"
+    state: directory
+    mode: "0755"
+  loop: "{{ dotfiles }}"
+  changed_when: false
+
+- name: Create symlinks
+  ansible.builtin.file:
+    src: "{{ dotfiles_repo }}/{{ item }}"
+    dest: "{{ ansible_env.HOME }}/{{ item }}"
+    state: link
+    force: true
+  loop: "{{ dotfiles }}"
