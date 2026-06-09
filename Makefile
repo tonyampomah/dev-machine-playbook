@@ -37,8 +37,8 @@ macos: install
 clone-projects: install
 	ansible-playbook main-linux.yml -i inventory --tags clone-projects
 
-dotfiles: install
-	ansible-playbook main-linux.yml -i inventory --tags dotfiles
+configure-dotfiles: install
+	ansible-playbook main-linux.yml -i inventory --tags configure-dotfiles
 
 git-clone-projects: clone-projects
 

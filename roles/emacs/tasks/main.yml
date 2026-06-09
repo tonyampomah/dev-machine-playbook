@@ -19,6 +19,3 @@
     state: "{{ item.state}}"
   with_items: "{{ emacs_aur_packages }}"
   become_user: "{{username}}"
-
-# Configure Emacs Dot File.
-# - include_tasks: configure-dotfile.yml

@@ -18,7 +18,7 @@
     tags: ['install-pyenv']
   - import_tasks: tasks/clone-projects.yml
     tags: ['clone-projects']
-  - import_tasks: tasks/dotfiles.yml
-    tags: ['dotfiles']
+  - import_tasks: tasks/configure-dotfiles.yml
+    tags: ['configure-dotfiles']
   - import_tasks: tasks/extra-packages.yml
     tags: ["extra-packages"]

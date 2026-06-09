@@ -7,6 +7,7 @@ dotfiles_repo: ~/Repo/2Areas/dotfiles/
 
 personal_repo:
   - dotfiles
+  - password-store
   - dev-machine-playbook
 
 arksolutions_it_areas_repo:
@@ -22,7 +23,6 @@ arksolutions_it_resources_repo:
   - tableplus
 
 homebrew_installed_packages:
-  # - roots/tap/trellis-cli
   - aspell
   - autoconf
   - automake
@@ -102,7 +102,6 @@ composer_packages: []
 npm_packages: []
 
 gem_packages: []
-
 
 dotfiles_repo: "{{ lookup('env', 'HOME') }}/Repo/2Areas/dotfiles"
 dotfiles:
