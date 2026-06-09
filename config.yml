@@ -111,7 +111,6 @@ dotfiles:
   - .ca-bundle.crt
   - .config
   - .emacs.d
-  - .functions
   - .gitconfig
   - .gitignore
   - .gitignore_global
@@ -122,8 +121,5 @@ dotfiles:
   - .mpd
   - nixos
   - .php-cs-fixer
-  - .stow-local-ignore
   - .tmux.conf
-  - .xmonad
-  - .Xresources
   - .zshrc
