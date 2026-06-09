@@ -3,16 +3,25 @@
   become: false
   ansible.builtin.git:
     repo: "git@github.com:tonyampomah/{{ item }}.git"
-    dest: "~/Repo/{{ item }}"
+    dest: "~/Repo/2Areas/{{ item }}"
     clone: yes
     update: yes
-  with_items: "{{ repo }}"
+  with_items: "{{ personal_repo }}"
 
-- name: Clone Arksolutions.it Repo
+- name: Clone Arksolutions.it Areas Repo
   become: false
   ansible.builtin.git:
     repo: "git@github.com:arksolutions-it/{{ item }}.git"
-    dest: "~/Repo/{{ item }}"
+    dest: "~/Repo/2Areas/{{ item }}"
     clone: yes
     update: yes
-  with_items: "{{ repo_arksolutions_it }}"
+  with_items: "{{ arksolutions_it_areas_repo }}"
+
+- name: Clone Arksolutions.it Resources Repo
+  become: false
+  ansible.builtin.git:
+    repo: "git@github.com:arksolutions-it/{{ item }}.git"
+    dest: "~/Repo/3Resources/{{ item }}"
+    clone: yes
+    update: yes
+  with_items: "{{ arksolutions_it_resources_repo }}"

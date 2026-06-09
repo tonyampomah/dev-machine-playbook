@@ -3,18 +3,19 @@ username: tonyampomah
 composer_home_owner: tonyampomah
 composer_home_group: tonyampomah
 
-repo:
-  - org
+personal_repo:
   # - dotfiles
   - dev-machine-playbook
 
-repo_arksolutions_it:
+arksolutions_it_areas_repo:
   - arksolutions.it
   - arksolutions.it-finance
   - arksolutions.it-proxy
   - finatec.co.uk
-  - module-strapi
   - newearswickmobility.co.uk
+
+arksolutions_it_resources_repo:
+  - module-strapi
   - responsively-app
   - tableplus
 
