@@ -37,5 +37,7 @@ macos: install
 clone-projects: install
 	ansible-playbook main-linux.yml -i inventory --tags clone-projects
 
+git-clone-projects: clone-projects
+
 printer-setup: install
 	ansible-playbook main-linux.yml -i inventory --tags printer
