@@ -4,7 +4,7 @@ composer_home_owner: tonyampomah
 composer_home_group: tonyampomah
 
 personal_repo:
-  # - dotfiles
+  - dotfiles
   - dev-machine-playbook
 
 arksolutions_it_areas_repo:
