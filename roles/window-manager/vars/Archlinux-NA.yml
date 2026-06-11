@@ -1,65 +1,49 @@
 ---
 window_manager_packages:
   - {name: acpi, state: present}
+  - {name: alacritty, state: present}
   - {name: blueman, state: present}
   - {name: bluez, state: present}
   - {name: bluez-utils, state: present}
   - {name: brightnessctl, state: present}
-  - {name: feh, state: present}
+  - {name: fastfetch, state: present}
+  - {name: fuzzel, state: present}
   - {name: gammastep, state: present}
   - {name: grim, state: present}
-  - {name: hyprland, state: present}
-  - {name: hyprlock, state: present}
-  - {name: hyprpaper, state: present}
   - {name: lxappearance, state: present}
+  - {name: maim, state: present}
+  - {name: network-manager-applet, state: present}
+  - {name: networkmanager, state: present}
+  - {name: niri, state: present}
   - {name: nwg-look, state: present}
   - {name: pavucontrol, state: present}
   - {name: pipewire, state: present}
   - {name: playerctl, state: present}
+  - {name: polkit-gnome, state: present}
   - {name: qt5-quickcontrols2, state: present}
   - {name: qt5ct, state: present}
   - {name: qt6-declarative, state: present}
   - {name: qt6-svg, state: present}
-  - {name: rofi-calc, state: present}
-  - {name: rofi-pass, state: present}
+  - {name: scrot, state: present}
   - {name: slurp, state: present}
   - {name: surfraw, state: present}
+  - {name: swaybg, state: present}
+  - {name: swaync, state: present}
   - {name: sysstat, state: present}
   - {name: waybar, state: present}
   - {name: wireplumber, state: present}
   - {name: wl-clipboard, state: present}
-  - {name: xdg-desktop-portal-hyprland, state: present}
-  - {name: swaync, state: present}
-  - {name: network-manager-applet, state: present}
-  - {name: networkmanager, state: present}
-  - {name: hyprcursor, state: present}
-  - {name: fastfetch, state: present}
-  - {name: polkit-gnome, state: present}
-  - {name: xorg-xsetroot, state: present}
   - {name: xorg-xinput, state: present}
-  - {name: dunst, state: present}
-  - {name: xmonad, state: present}
-  - {name: xmonad-contrib, state: present}
-  - {name: xmonad-dbus, state: present}
-  - {name: variety, state: present}
-  - {name: redshift, state: present}
-  - {name: polybar, state: present}
-  - {name: scrot, state: present}
-  - {name: maim, state: present}
-  - {name: sway, state: present}
-  - {name: swaybg, state: present}
+  - {name: xorg-xsetroot, state: present}
 
 window_manager_aur_packages:
+  - {name: bibata-cursor-theme, state: present}
   - {name: catppuccin-gtk-theme-macchiato, state: present}
-  - {name: hyprsunset, state: present}
-  - {name: rofi-wayland, state: present}
+  - {name: rose-pine-hyprcursor, state: present}
   - {name: swww, state: present}
   - {name: waypaper, state: present}
+  - {name: wdisplays, state: present}
   - {name: whitesur-cursor-theme-git, state: present}
   - {name: whitesur-gtk-theme, state: present}
   - {name: whitesur-icon-theme, state: present}
-  - {name: waypaper, state: present}
-  - {name: rose-pine-hyprcursor, state: present}
-  - {name: bibata-cursor-theme, state: present}
   - {name: wlogout, state: present}
-  - {name: wdisplays, state: present}
