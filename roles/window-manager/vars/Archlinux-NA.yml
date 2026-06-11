@@ -2,6 +2,7 @@
 window_manager_packages:
   - {name: acpi, state: present}
   - {name: alacritty, state: present}
+  - {name: xwayland-satellite, state: present}
   - {name: blueman, state: present}
   - {name: bluez, state: present}
   - {name: bluez-utils, state: present}
@@ -10,9 +11,7 @@ window_manager_packages:
   - {name: fuzzel, state: present}
   - {name: gammastep, state: present}
   - {name: grim, state: present}
-  - {name: lxappearance, state: present}
   - {name: maim, state: present}
-  - {name: network-manager-applet, state: present}
   - {name: networkmanager, state: present}
   - {name: niri, state: present}
   - {name: nwg-look, state: present}
