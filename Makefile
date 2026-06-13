@@ -1,46 +1,41 @@
 install:
 	ansible-galaxy install -r requirements.yml
 
-linux: install
+provision-linux: install
 	ansible-playbook main-linux.yml -i inventory
 
-linux-general-apps:
-	ansible-playbook main-linux.yml -i inventory --tags general-apps
-
-linux-fonts:
-	ansible-playbook main-linux.yml -i inventory --tags fonts
-
-linux-emacs:
-	ansible-playbook main-linux.yml -i inventory --tags emacs
-
-linux-dev-tools:
-	ansible-playbook main-linux.yml -i inventory --tags dev-tools
-
-linux-docker:
-	ansible-playbook main-linux.yml -i inventory --tags docker
-
-linux-web-browsers:
-	ansible-playbook main-linux.yml -i inventory --tags web-browsers
-
-linux-window-manager:
-	ansible-playbook main-linux.yml -i inventory --tags window-manager
-
-linux-install-pyenv:
-	ansible-playbook main-linux.yml -i inventory --tags install-pyenv
-
-m1-linux: install
-	ansible-playbook main-linux.yml -i inventory
-
-macos: install
+provision-macos: install
 	ansible-playbook main-macos.yml -i inventory
 
-clone-projects: install
+provision-linux-general-apps:
+	ansible-playbook main-linux.yml -i inventory --tags general-apps
+
+provision-linux-fonts:
+	ansible-playbook main-linux.yml -i inventory --tags fonts
+
+provision-linux-emacs:
+	ansible-playbook main-linux.yml -i inventory --tags emacs
+
+provision-linux-dev-tools:
+	ansible-playbook main-linux.yml -i inventory --tags dev-tools
+
+provision-linux-docker:
+	ansible-playbook main-linux.yml -i inventory --tags docker
+
+provision-linux-web-browsers:
+	ansible-playbook main-linux.yml -i inventory --tags web-browsers
+
+provision-linux-window-manager:
+	ansible-playbook main-linux.yml -i inventory --tags window-manager
+
+provision-linux-install-pyenv:
+	ansible-playbook main-linux.yml -i inventory --tags install-pyenv
+
+git-clone-projects: install
 	ansible-playbook main-linux.yml -i inventory --tags clone-projects
 
 configure-dotfiles: install
 	ansible-playbook main-linux.yml -i inventory --tags configure-dotfiles
-
-git-clone-projects: clone-projects
 
 printer-setup: install
 	ansible-playbook main-linux.yml -i inventory --tags printer

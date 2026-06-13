@@ -32,7 +32,7 @@ homebrew_installed_packages:
   - composer
   - coreutils
   - editorconfig
-  - emacs-plus
+  - emacs-plus-app
   - fd
   - font-cascadia-code
   - font-noto-sans
@@ -62,7 +62,8 @@ homebrew_installed_packages:
   - fnm
   - fastfetch
 
-homebrew_taps: []
+homebrew_taps:
+  - d12frosted/emacs-plus
 
 homebrew_cask_appdir: /Applications
 
