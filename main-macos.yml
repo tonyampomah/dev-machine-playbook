@@ -10,5 +10,9 @@
     - { role: geerlingguy.mac.homebrew, tags: [homebrew] }
 
   tasks:
-    - import_tasks: tasks/extra-packages.yml
-      tags: ["extra-packages"]
+  - import_tasks: tasks/clone-projects.yml
+    tags: ['clone-projects']
+  - import_tasks: tasks/configure-dotfiles.yml
+    tags: ['configure-dotfiles']
+  - import_tasks: tasks/extra-packages.yml
+    tags: ["extra-packages"]
