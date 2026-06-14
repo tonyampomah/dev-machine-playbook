@@ -2,7 +2,6 @@
 window_manager_packages:
   - {name: acpi, state: present}
   - {name: alacritty, state: present}
-  - {name: xwayland-satellite, state: present}
   - {name: blueman, state: present}
   - {name: bluez, state: present}
   - {name: bluez-utils, state: present}
@@ -11,6 +10,10 @@ window_manager_packages:
   - {name: fuzzel, state: present}
   - {name: gammastep, state: present}
   - {name: grim, state: present}
+  - {name: hyprland, state: present}
+  - {name: hyprlock, state: present}
+  - {name: hyprpaper, state: present}
+  - {name: hyprsunset, state: present}
   - {name: maim, state: present}
   - {name: networkmanager, state: present}
   - {name: niri, state: present}
@@ -34,6 +37,7 @@ window_manager_packages:
   - {name: wl-clipboard, state: present}
   - {name: xorg-xinput, state: present}
   - {name: xorg-xsetroot, state: present}
+  - {name: xwayland-satellite, state: present}
 
 window_manager_aur_packages:
   - {name: bibata-cursor-theme, state: present}
