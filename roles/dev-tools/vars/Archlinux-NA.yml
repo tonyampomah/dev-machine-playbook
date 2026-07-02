@@ -1,25 +1,26 @@
 ---
 dev_tools_packages:
   # - {name: vagrant, state: present}
-  - {name: aws-cli, state: present}
-  - {name: base-devel, state: present}
-  - {name: binutils, state: present}
-  - {name: cmatrix, state: present}
-  - {name: dnsutils, state: present}
-  - {name: fzf, state: present}
-  - {name: htop, state: present}
-  - {name: kitty, state: present}
-  - {name: prettier, state: present}
-  - {name: python-pip, state: present}
-  - {name: rsync, state: present}
-  - {name: virtualbox, state: present}
-  - {name: zsh, state: present}
-  - {name: nfs-utils, state: present}
-  - {name: inetutils, state: present}
-  - {name: ansible, state: present}
+  - { name: aws-cli, state: present }
+  - { name: base-devel, state: present }
+  - { name: binutils, state: present }
+  - { name: cmatrix, state: present }
+  - { name: dnsutils, state: present }
+  - { name: fzf, state: present }
+  - { name: htop, state: present }
+  - { name: kitty, state: present }
+  - { name: prettier, state: present }
+  - { name: python-pip, state: present }
+  - { name: rsync, state: present }
+  - { name: virtualbox, state: present }
+  - { name: zsh, state: present }
+  - { name: nfs-utils, state: present }
+  - { name: inetutils, state: present }
+  - { name: ansible, state: present }
+  - { name: ripgrep, state: present }
 
 dev_tools_aur_packages:
-  - {name: pyenv, state: present}
+  - { name: pyenv, state: present }
   # - {name: alacritty-ligatures-git, state: present}
   # - {name: dbeaver, state: present}
   # - {name: oh-my-zsh-git, state: present}
