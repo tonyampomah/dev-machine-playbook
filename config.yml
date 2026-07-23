@@ -94,15 +94,20 @@ homebrew_cask_apps:
   - whatsapp
   - zoom
 
+
+npm_packages:
+  - name: yarn
+  - name: intelephense
+
 pip_packages:
   - name: robotframework-lsp
     state: present
-
-composer_packages: []
-
-npm_packages: []
+  - name: pabot
+    state: present
 
 gem_packages: []
+
+composer_packages: []
 
 dotfiles_repo: "{{ lookup('env', 'HOME') }}/Repo/2Areas/dotfiles"
 dotfiles:

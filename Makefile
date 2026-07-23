@@ -37,5 +37,8 @@ git-clone-projects: install
 configure-dotfiles: install
 	ansible-playbook main-linux.yml -i inventory --tags configure-dotfiles
 
+install-extra-packages: install
+	ansible-playbook main-linux.yml -i inventory --tags install-extra-packages
+
 printer-setup: install
 	ansible-playbook main-linux.yml -i inventory --tags printer

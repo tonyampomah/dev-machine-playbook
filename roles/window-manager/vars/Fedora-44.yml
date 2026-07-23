@@ -18,3 +18,4 @@ window_manager_packages:
   - {name: wlogout, state: present}
   - {name: wofi, state: present}
   - {name: xbindkeys, state: present}
+  - {name: network-manager-applet, state: present}
