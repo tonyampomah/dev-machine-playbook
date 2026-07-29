@@ -7,6 +7,7 @@
       skip: true
 
 - name: Install Dev Tools
+  become: true
   package:
     name: "{{ item.name }}"
     state: "{{ item.state}}"

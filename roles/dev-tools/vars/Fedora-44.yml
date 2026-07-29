@@ -11,3 +11,47 @@ dev_tools_packages:
   - { name: poppler-devel, state: present }
   - { name: poppler-glib-devel, state: present }
   - { name: ripgrep, state: present }
+  - { name: patch, state: present }
+
+  # Python / pyenv build dependencies
+  - { name: zlib-devel, state: present }
+  - { name: bzip2-devel, state: present }
+  - { name: openssl-devel, state: present }
+  - { name: xz-devel, state: present }
+  - { name: libffi-devel, state: present }
+  - { name: gdbm-devel, state: present }
+  - { name: uuid-devel, state: present }
+  - { name: ncurses-devel, state: present }
+  - { name: readline-devel, state: present }
+  - { name: sqlite-devel, state: present }
+  - { name: tk-devel, state: present }
+  - { name: tcl-devel, state: present }
+
+  # Playwright browser dependencies
+  - { name: libicu, state: present }
+  - { name: gstreamer1-plugins-base, state: present }
+  - { name: gstreamer1-plugins-good, state: present }
+  - { name: gstreamer1-plugins-bad-free, state: present }
+  - { name: alsa-lib, state: present }
+  - { name: atk, state: present }
+  - { name: at-spi2-atk, state: present }
+  - { name: cairo, state: present }
+  - { name: cups-libs, state: present }
+  - { name: dbus-libs, state: present }
+  - { name: expat, state: present }
+  - { name: fontconfig, state: present }
+  - { name: freetype, state: present }
+  - { name: glib2, state: present }
+  - { name: gtk3, state: present }
+  - { name: libdrm, state: present }
+  - { name: libX11, state: present }
+  - { name: libXcomposite, state: present }
+  - { name: libXdamage, state: present }
+  - { name: libXext, state: present }
+  - { name: libXfixes, state: present }
+  - { name: libXrandr, state: present }
+  - { name: libxcb, state: present }
+  - { name: libxkbcommon, state: present }
+  - { name: mesa-libgbm, state: present }
+  - { name: nss, state: present }
+  - { name: pango, state: present }

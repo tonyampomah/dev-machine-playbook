@@ -98,6 +98,7 @@ homebrew_cask_apps:
 npm_packages:
   - name: yarn
   - name: intelephense
+  - name: typescript
   - name: typescript-language-server
   - name: ansible-language-server
   - name: tailwindcss-language-server
