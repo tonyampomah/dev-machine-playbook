@@ -120,7 +120,6 @@ dotfiles:
   - .bin
   - .ca-bundle.crt
   - .config
-  - .emacs.d
   - .gitconfig
   - .gitignore
   - .gitignore_global

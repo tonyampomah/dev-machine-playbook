@@ -37,10 +37,3 @@
     dest: "{{ ansible_env.HOME }}/.password-store"
     state: link
     force: true
-
-- name: Symlink Emacs eshell alias
-  ansible.builtin.file:
-    src: "{{ ansible_env.HOME }}/Repo/2Areas/dotfiles/.emacs.d/eshell/alias"
-    dest: "{{ ansible_env.HOME }}/.cache/emacs/eshell/alias"
-    state: link
-    force: true
