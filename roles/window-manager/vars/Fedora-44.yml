@@ -1,6 +1,10 @@
 ---
 window_manager_packages:
   - {name: hyprland, state: present}
+  - {name: hyprsunset, state: present}
+  - {name: hyprpolkitagent, state: present}
+  - {name: hyprpaper, state: present}
+  - {name: fuzzel, state: present}
   - {name: swaybg, state: present}
   - {name: swaybg, state: present}
   - {name: acpi, state: present}
