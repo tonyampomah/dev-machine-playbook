@@ -1,6 +1,7 @@
 ---
 - hosts: all
   connection: local
+  become: true
   vars_files:
     - config.yml
   roles:
