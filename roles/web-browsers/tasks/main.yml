@@ -11,3 +11,16 @@
     name: "{{ item.name }}"
     state: "{{ item.state}}"
   with_items: "{{ web_browsers_packages }}"
+
+- name: Add Brave Browser repository
+  ansible.builtin.get_url:
+    url: https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
+    dest: /etc/yum.repos.d/brave-browser.repo
+    mode: '0644'
+  when: ansible_distribution == "Fedora"
+
+- name: Install Brave Browser
+  ansible.builtin.dnf:
+    name: brave-browser
+    state: present
+  when: ansible_distribution == "Fedora"
