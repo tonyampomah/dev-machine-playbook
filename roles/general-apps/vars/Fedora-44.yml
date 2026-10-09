@@ -23,5 +23,6 @@ general_packages:
   - {name: remmina, state: present}
   - {name: youtube-dl, state: present}
   - {name: thunderbird, state: present}
+  - {name: rhythmbox, state: present}
 
 general_aur_packages: []
