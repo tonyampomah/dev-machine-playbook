@@ -24,5 +24,6 @@ general_packages:
   - {name: youtube-dl, state: present}
   - {name: thunderbird, state: present}
   - {name: rhythmbox, state: present}
+  - {name: cifs-utils, state: present}
 
 general_aur_packages: []
